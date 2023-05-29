@@ -7,8 +7,8 @@
 
       </div>
       <div class="flex flex-row justify-start">
-        <span class="mr-12">{{ event.startTime | dateFormat }}</span>
-        <span>{{ event.endTime | dateFormat }}</span>
+        <span class="mr-12">{{ event.startTime }}</span>
+        <span>{{ event.endTime }}</span>
       </div>
       <div class="flex flex-row">
         <span>{{ timerDescription }}</span>

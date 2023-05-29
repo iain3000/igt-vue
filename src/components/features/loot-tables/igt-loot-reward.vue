@@ -10,8 +10,8 @@
 </template>
 
 <script>
-import IgtCurrency from "@/components/features/wallet/igt-currency";
-import IgtKeyItemSmall from "@/components/features/key-items/igt-key-item-small";
+import IgtCurrency from "@/components/features/wallet/igt-currency.vue";
+import IgtKeyItemSmall from "@/components/features/key-items/igt-key-item-small.vue";
 import {CurrencyLoot, IgtLoot, InventoryItemLoot, KeyItemLoot} from "incremental-game-template";
 
 export default {

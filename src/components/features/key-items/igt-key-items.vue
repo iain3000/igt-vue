@@ -7,8 +7,8 @@
 </template>
 
 <script>
-import IgtFeature from "@/components/util/igt-feature";
-import IgtKeyItem from "@/components/features/key-items/igt-key-item";
+import IgtFeature from "@/components/util/igt-feature.vue";
+import IgtKeyItem from "@/components/features/key-items/igt-key-item.vue";
 import {IgtKeyItems} from "incremental-game-template";
 
 export default {

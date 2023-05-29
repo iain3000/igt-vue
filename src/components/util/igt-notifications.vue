@@ -20,7 +20,7 @@
 
 <script>
 
-import IgtNotification from "@/components/util/igt-notification";
+import IgtNotification from "@/components/util/igt-notification.vue";
 
 export default {
   name: "igt-notifications",

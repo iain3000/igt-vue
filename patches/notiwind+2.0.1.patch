@@ -1,0 +1,14 @@
+diff --git a/node_modules/notiwind/dist/index.esm.js b/node_modules/notiwind/dist/index.esm.js
+index 54263c4..f16ce88 100644
+--- a/node_modules/notiwind/dist/index.esm.js
++++ b/node_modules/notiwind/dist/index.esm.js
+@@ -53,7 +53,8 @@ const D = () => {
+       "leave-active-class": t.leave,
+       "leave-from-class": t.leaveFrom,
+       "leave-to-class": t.leaveTo,
+-      "move-class": t.move
++      "move-class": t.move,
++      "tag": "span"
+     }, {
+       default: w(() => [
+         T(e.$slots, "default", {

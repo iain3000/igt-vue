@@ -9,9 +9,9 @@
       <hr>
 
       <div class="mt-2 w-16 h-16 mx-auto">
-        <img v-if="item.image"
+        <!-- <img v-if="item.image"
              :class="{'filter-grayscale': !item.isUnlocked}"
-             :src="require(`@/assets/${item.image}`)" :alt="item.image">
+             :src="require(`@/assets/${item.image}`)" :alt="item.image"> -->
       </div>
       <p class="text-sm"> {{ item.description }}</p>
     </div>

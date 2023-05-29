@@ -1,16 +1,20 @@
-import Vue from 'vue'
+// import Vue, { CompatVue } from 'vue'
+
+import { createApp } from 'vue';
+
 import VueApp from './VueApp.vue'
 import {App} from "./App";
 
-import Notifications from "vt-notifications";
+// import Notifications from "vt-notifications";
+import Notifications from "notiwind";
 
-import './VueFilters';
+// import './VueFilters';
 
 import "./index.css";
 
-Vue.config.productionTip = false
+// Vue.config.productionTip = false
 
-Vue.use(Notifications);
+// Vue.use(Notifications);
 
 declare global {
     interface Window {
@@ -34,10 +38,11 @@ window.onload = function () {
 
     console.log("Launched");
 
-    new Vue({
-        render: h => h(VueApp),
-    }).$mount('#app')
+    // new Vue({
+    //     render: (h: (arg0: CompatVue) => any) => h(VueApp),
+    // }).$mount('#app')
 
+    createApp(VueApp).use(Notifications).mount('#app');
 
 };
 

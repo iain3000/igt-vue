@@ -16,8 +16,8 @@
   </igt-feature>
 </template>
 <script>
-import IgtFeature from "@/components/util/igt-feature";
-import IgtSpecialEvent from "@/components/features/special-events/igt-special-event";
+import IgtFeature from "@/components/util/igt-feature.vue";
+import IgtSpecialEvent from "@/components/features/special-events/igt-special-event.vue";
 import {IgtSpecialEvents} from "incremental-game-template";
 
 export default {

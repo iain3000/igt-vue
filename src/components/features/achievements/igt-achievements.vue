@@ -11,16 +11,16 @@
             <p v-if="achievement.isHidden && !achievement.unlocked" class="italic"> Hidden achievement </p>
             <p v-else class="italic"> {{ achievement.description }}</p>
           </div>
-          <img v-if="achievement.image" class="w-20 h-20 sm:w-28 sm:h-28 mx-auto m-2;"
+          <!-- <img v-if="achievement.image" class="w-20 h-20 sm:w-28 sm:h-28 mx-auto m-2;"
                :class="{'filter-grayscale': !achievement.unlocked}"
-               :src="require(`@/assets/${achievement.image}`)" :alt="achievement.image">
+               :src="require(`@/assets/${achievement.image}`)" :alt="achievement.image"> -->
         </div>
       </div>
     </div>
   </igt-feature>
 </template>
 <script>
-import IgtFeature from "@/components/util/igt-feature";
+import IgtFeature from "@/components/util/igt-feature.vue";
 import {IgtAchievements} from "incremental-game-template";
 
 export default {

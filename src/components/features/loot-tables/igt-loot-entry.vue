@@ -10,14 +10,14 @@
         <igt-key-item-small v-if="isKeyItem" :item="entry.item"></igt-key-item-small>
       </div>
 
-      <span class="ml-4" v-if="showWeightAsPercentage">{{ entry.weight * 100 | numberFormat }}%</span>
+      <span class="ml-4" v-if="showWeightAsPercentage">{{ entry.weight * 100 }}%</span>
     </div>
   </div>
 
 </template>
 
 <script>
-import IgtKeyItemSmall from "@/components/features/key-items/igt-key-item-small";
+import IgtKeyItemSmall from "@/components/features/key-items/igt-key-item-small.vue";
 import {CurrencyEntry, IgtLootEntry, InventoryItemEntry, KeyItemEntry, TableEntry} from "incremental-game-template";
 
 export default {

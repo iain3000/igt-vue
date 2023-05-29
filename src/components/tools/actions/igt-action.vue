@@ -3,7 +3,7 @@
        @click="action.toggle()">
     <div class="flex flex-col w-full space-y-1">
       <p class="text-center text-white">{{ action.description }}</p>
-      <span class="text-center text-white"> <span class="fa fa-clock"/> {{ action.duration | numberFormat }}</span>
+      <span class="text-center text-white"> <span class="fa fa-clock"/> {{ action.duration }}</span>
       <igt-progress-bar :percentage="progressPercentage"></igt-progress-bar>
     </div>
   </div>
@@ -12,7 +12,7 @@
 <script>
 
 
-import IgtProgressBar from "@/components/util/igt-progress-bar";
+import IgtProgressBar from "@/components/util/igt-progress-bar.vue";
 import {IgtAction} from "incremental-game-template";
 
 export default {

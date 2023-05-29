@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import IgtFeature from "@/components/util/igt-feature";
+import IgtFeature from "@/components/util/igt-feature.vue";
 import {IgtWallet} from "incremental-game-template";
 
 export default {

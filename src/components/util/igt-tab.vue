@@ -28,6 +28,10 @@ export default {
 
   mounted() {
     this.isActive = this.selected;
+  },
+  
+  created() {
+    this.$parent.tabs.push(this); 
   }
 }
 </script>
