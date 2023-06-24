@@ -1,8 +1,10 @@
 import {App} from "@/App";
 import VueApp from "@/VueApp.vue";
 
-import '@/VueFilters';
+// import '@/VueFilters';
 import {mount} from "@vue/test-utils";
+import {describe, test, expect} from "vitest";
+import Notifications from "notiwind";
 
 /**
  * This smoke test starts the game and runs 100 game ticks.
@@ -15,7 +17,11 @@ describe('Game launch smoke test', () => {
         expect(() => {
             App.start()
 
-            mount(VueApp);
+            mount(VueApp, {
+                global: {
+                    plugins: [Notifications]
+                }
+            })
 
             for (let i = 0; i < 100; i++) {
                 App.game.update();

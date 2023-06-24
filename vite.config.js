@@ -10,4 +10,10 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  test: {
+    globals: true,
+    setupFiles: ['vitest-localstorage-mock'],
+    mockReset: false,
+    environment: ['happy-dom']
+  }
 })
