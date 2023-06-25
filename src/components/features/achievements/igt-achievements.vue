@@ -20,7 +20,7 @@
   </igt-feature>
 </template>
 <script>
-import IgtFeature from "@/components/util/igt-feature";
+import IgtFeature from "@/components/util/igt-feature.vue";
 import {IgtAchievements} from "incremental-game-template";
 
 export default {

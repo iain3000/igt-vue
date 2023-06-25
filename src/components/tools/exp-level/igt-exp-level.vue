@@ -14,7 +14,7 @@
 </template>
 
 <script>
-import IgtProgressBar from "@/components/util/igt-progress-bar";
+import IgtProgressBar from "@/components/util/igt-progress-bar.vue";
 import {IgtExpLevel} from "incremental-game-template";
 
 export default {

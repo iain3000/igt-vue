@@ -31,13 +31,13 @@
 
 <script>
 import {App} from "@/App.ts"
-import IgtSidebar from "@/components/util/sidebar/igt-sidebar-layout";
-import IgtTab from "@/components/util/igt-tab";
-import IgtNotifications from "@/components/util/igt-notifications";
-import IgtDeveloperPanel from "@/components/developer-panel/igt-developer-panel";
-import IgtSidebarCategory from "@/components/util/sidebar/igt-sidebar-category";
-import IgtSidebarExternalLink from "@/components/util/sidebar/igt-sidebar-external-link";
-import IgtSettings from "@/components/features/settings/igt-settings";
+import IgtSidebar from "@/components/util/sidebar/igt-sidebar-layout.vue";
+import IgtTab from "@/components/util/igt-tab.vue";
+import IgtNotifications from "@/components/util/igt-notifications.vue";
+import IgtDeveloperPanel from "@/components/developer-panel/igt-developer-panel.vue";
+import IgtSidebarCategory from "@/components/util/sidebar/igt-sidebar-category.vue";
+import IgtSidebarExternalLink from "@/components/util/sidebar/igt-sidebar-external-link.vue";
+import IgtSettings from "@/components/features/settings/igt-settings.vue";
 
 export default {
   components: {

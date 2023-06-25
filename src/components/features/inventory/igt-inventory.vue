@@ -24,9 +24,9 @@
 </template>
 
 <script>
-import IgtFeature from "@/components/util/igt-feature";
-import IgtInventorySlot from "@/components/features/inventory/igt-inventory-slot";
-import IgtInventorySlotHighlight from "@/components/features/inventory/igt-inventory-slot-highlight";
+import IgtFeature from "@/components/util/igt-feature.vue";
+import IgtInventorySlot from "@/components/features/inventory/igt-inventory-slot.vue";
+import IgtInventorySlotHighlight from "@/components/features/inventory/igt-inventory-slot-highlight.vue";
 import {IgtInventory} from "incremental-game-template";
 
 export default {

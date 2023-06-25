@@ -12,14 +12,14 @@
 </template>
 
 <script>
-import IgtNumberField from "@/components/developer-panel/fields/igt-number-field";
-import IgtButtonField from "@/components/developer-panel/fields/igt-button-field";
-import IgtRangeField from "@/components/developer-panel/fields/igt-range-field";
-import IgtTabs from "@/components/util/igt-tabs";
-import IgtTab from "@/components/util/igt-tab";
-import IgtDisplayField from "@/components/developer-panel/fields/igt-display-field";
-import IgtChoiceField from "@/components/developer-panel/fields/igt-choice-field";
-import IgtFeature from "@/components/util/igt-feature";
+import IgtNumberField from "@/components/developer-panel/fields/igt-number-field.vue";
+import IgtButtonField from "@/components/developer-panel/fields/igt-button-field.vue";
+import IgtRangeField from "@/components/developer-panel/fields/igt-range-field.vue";
+import IgtTabs from "@/components/util/igt-tabs.vue";
+import IgtTab from "@/components/util/igt-tab.vue";
+import IgtDisplayField from "@/components/developer-panel/fields/igt-display-field.vue";
+import IgtChoiceField from "@/components/developer-panel/fields/igt-choice-field.vue";
+import IgtFeature from "@/components/util/igt-feature.vue";
 import {DeveloperPanel} from "incremental-game-template";
 
 export default {
