@@ -22,10 +22,13 @@ export default {
   data() {
     return {
       isExternalLink: true,
-      isActive: false
+      isActive: true
     };
   },
 
+  created() {
+    this.$parent.tabs.push(this); 
+  },
 }
 </script>
 
