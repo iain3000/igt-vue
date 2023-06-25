@@ -8,5 +8,11 @@ export default {
         "@": path.resolve(__dirname, "./src"),
       }
     },
-    plugins: [ createVuePlugin() ]
+    plugins: [ createVuePlugin() ],
+    test: {
+      globals: true, // required
+      setupFiles: ['vitest-localstorage-mock'],
+      mockReset: false,
+      environment: 'happy-dom'
+    }
   }
