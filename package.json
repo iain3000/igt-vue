@@ -12,7 +12,7 @@
     "@fortawesome/fontawesome-free": "^5.15.2",
     "@vue/compat": "^3.3.0",
     "autoprefixer": "^9.8.6",
-    "incremental-game-template": "^1.2.1",
+    "incremental-game-template": "github:iain3000/igt-library",
     "lodash-es": "^4.17.21",
     "mousetrap": "^1.6.5",
     "notiwind": "^2.0.1",
