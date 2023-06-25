@@ -13,7 +13,7 @@
           </div>
           <img v-if="achievement.image" class="w-20 h-20 sm:w-28 sm:h-28 mx-auto m-2;"
                :class="{'filter-grayscale': !achievement.unlocked}"
-               :src="require(`@/assets/${achievement.image}`)" :alt="achievement.image">
+               :src="`/src/assets/${achievement.image}`" :alt="achievement.image">
         </div>
       </div>
     </div>
