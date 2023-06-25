@@ -1,7 +1,7 @@
 import {App} from "@/App";
 import VueApp from "@/VueApp.vue";
 
-import '@/VueFilters';
+// import '@/VueFilters';
 import {mount} from "@vue/test-utils";
 
 /**

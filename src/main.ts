@@ -4,7 +4,7 @@ import {App} from "./App";
 
 import Notifications from "notiwind";
 
-import './VueFilters';
+// import './VueFilters';
 
 import "./index.css";
 
