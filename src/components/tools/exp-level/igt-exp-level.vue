@@ -4,7 +4,7 @@
     <div class="relative pt-1">
       <div class="flex justify-between">
         <p>Lvl. {{ expLevel.getLevel() }} / {{ expLevel.maxLevel }}</p>
-        <p>{{ progress.actual | numberFormat }} / {{ progress.target  | numberFormat }}</p>
+        <p>{{ $filters.numberFormat(progress.actual) }} / {{ $filters.numberFormat(progress.target) }}</p>
 
       </div>
       <igt-progress-bar :percentage="progressPercentage"></igt-progress-bar>

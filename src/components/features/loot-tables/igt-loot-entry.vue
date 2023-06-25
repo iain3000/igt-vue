@@ -10,7 +10,7 @@
         <igt-key-item-small v-if="isKeyItem" :item="entry.item"></igt-key-item-small>
       </div>
 
-      <span class="ml-4" v-if="showWeightAsPercentage">{{ entry.weight * 100 | numberFormat }}%</span>
+      <span class="ml-4" v-if="showWeightAsPercentage">{{ $filters.numberFormat(entry.weight * 100) }}%</span>
     </div>
   </div>
 

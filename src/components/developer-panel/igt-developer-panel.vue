@@ -1,7 +1,7 @@
 <template>
   <igt-feature container-class="bg-yellow-100 dark:bg-gray-700">
     <igt-tabs>
-      <igt-tab :name="tab.label | humanizeString " :selected="index === 0" :key="index + '-' +tab.label"
+      <igt-tab :name="$filters.humanizeString(tab.label)" :selected="index === 0" :key="index + '-' +tab.label"
                v-for="(tab, index) in developerPanel.tabs">
         <div :key="index + '-' +field.propertyName" v-for="(field, index) in tab.children">
           <component :is="field.componentName" :field="field"></component>
