@@ -1,12 +1,11 @@
 {
   "name": "igt-vue",
-  "version": "0.1.0",
+  "version": "0.3.3",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint",
-    "test": "vue-cli-service test:unit",
+    "serve": "vite preview",
+    "build": "vite build",
+    "test": "vitest",
     "postinstall": "patch-package"
   },
   "dependencies": {
