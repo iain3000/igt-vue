@@ -25,6 +25,10 @@ export default {
       return '#' + this.name.toLowerCase().replace(/ /g, '-');
     }
   },
+  
+  created() {
+    this.$parent.tabs.push(this); 
+  },
 
   mounted() {
     this.isActive = this.selected;
