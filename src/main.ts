@@ -2,7 +2,7 @@ import Vue from 'vue'
 import VueApp from './VueApp.vue'
 import {App} from "./App";
 
-import Notifications from "vt-notifications";
+import Notifications from "notiwind";
 
 import './VueFilters';
 
