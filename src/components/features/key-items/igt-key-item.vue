@@ -11,7 +11,7 @@
       <div class="mt-2 w-16 h-16 mx-auto">
         <img v-if="item.image"
              :class="{'filter-grayscale': !item.isUnlocked}"
-             :src="`/src/assets/${item.image}`" :alt="item.image">
+             :src="getImageUrl(item.image)" :alt="item.image">
       </div>
       <p class="text-sm"> {{ item.description }}</p>
     </div>
@@ -23,6 +23,8 @@
 <script>
 import {KeyItem} from "incremental-game-template";
 
+import { getImageUrl } from "@/utils";
+
 export default {
   name: "igt-key-item",
   props: {
@@ -31,6 +33,9 @@ export default {
       required: true,
     },
   },
+  methods: {
+    getImageUrl
+  }
 }
 </script>
 

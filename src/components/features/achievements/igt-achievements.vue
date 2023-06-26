@@ -13,7 +13,7 @@
           </div>
           <img v-if="achievement.image" class="w-20 h-20 sm:w-28 sm:h-28 mx-auto m-2;"
                :class="{'filter-grayscale': !achievement.unlocked}"
-               :src="`/src/assets/${achievement.image}`" :alt="achievement.image">
+               :src="getImageUrl(achievement.image)" :alt="achievement.image">
         </div>
       </div>
     </div>
@@ -22,6 +22,7 @@
 <script>
 import IgtFeature from "@/components/util/igt-feature.vue";
 import {IgtAchievements} from "incremental-game-template";
+import { getImageUrl } from "@/utils";
 
 export default {
   name: "igt-achievements",
@@ -37,6 +38,10 @@ export default {
     achievements() {
       return this.achievementsFeature.list;
     }
+  },
+
+  methods: {
+    getImageUrl
   },
 
   mounted() {
