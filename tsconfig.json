@@ -12,7 +12,7 @@
     "allowJs": true,
     "sourceMap": true,
     "baseUrl": ".",
-    "types": [ ],
+    "types": [ "vitest/globals" ],
     "paths": {
       "@/*": [
         "src/*"
