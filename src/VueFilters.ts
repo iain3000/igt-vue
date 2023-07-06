@@ -30,6 +30,6 @@ export function humanizeString(string: string) {
         return "";
     }
     string = string.charAt(0).toUpperCase() + string.slice(1);
-    string.replace("_", " ").replace("-", " ");
+    string = string.replace("_", " ").replace("-", " ");
     return string;
 }
