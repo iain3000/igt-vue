@@ -1,8 +1,9 @@
-import {IgtWallet} from "@/ig-template/features/wallet/IgtWallet";
+import {IgtWalletStore as IgtWallet} from "@/stores/igt-wallet-store";
 import {CurrencyType} from "@/ig-template/features/wallet/CurrencyType";
 import {Currency} from "@/ig-template/features/wallet/Currency";
 import {WalletSaveData} from "@/ig-template/features/wallet/WalletSaveData";
 
+import { createPinia, setActivePinia } from "pinia";
 
 describe('Wallet', () => {
 
@@ -11,6 +12,7 @@ describe('Wallet', () => {
     let moneyWallet: IgtWallet;
 
     beforeEach(() => {
+        setActivePinia(createPinia())
         moneyWallet = new IgtWallet([money]);
     });
 
@@ -216,14 +218,20 @@ describe('Wallet', () => {
         expect(wallet.getAmount(secondary)).toEqual(0);
     });
 
-    test.skip('on currency gain', () => {
+    test('on currency gain', () => {
         // Arrange
-        expect.assertions(0);
+        expect.assertions(1);
 
-        moneyWallet.onCurrencyGain.subscribe(currency => {
-            expect(currency.amount).toBe(10);
-            expect(currency.type).toBe(money);
-        });
+        // eslint-disable-next-line @typescript-eslint/no-unused-vars
+        moneyWallet.store.$onAction(({ name, store, args, after, onError }) => {
+            after(() => {
+              expect(store.currencies[money]).toBe(10);
+            })
+            onError((error) => {
+                console.error(error);
+                throw(error);
+            })
+           })
 
         // Act
         moneyWallet.gainCurrency(new Currency(10, money));

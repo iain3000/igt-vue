@@ -7,6 +7,7 @@ import { describe, test, expect } from "vitest";
 import Notifications from "notiwind";
 
 import { dateFormat, humanizeString, numberFormat } from "@/VueFilters";
+import { createPinia } from "pinia";
 
 /**
  * This smoke test starts the game and runs 100 game ticks.
@@ -15,6 +16,7 @@ import { dateFormat, humanizeString, numberFormat } from "@/VueFilters";
  */
 describe("Game launch smoke test", () => {
   test("smoke test", () => {
+
     expect(() => {
       App.start();
 
@@ -28,6 +30,7 @@ describe("Game launch smoke test", () => {
                 humanizeString,
                 numberFormat
               },
+              $pinia: createPinia()
             },
           },
         },

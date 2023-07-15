@@ -1,9 +1,11 @@
 import {SaveData} from "@/ig-template/tools/saving";
-import {Currency, IgtWallet} from "@/ig-template/features/wallet";
+import {Currency} from "@/ig-template/features/wallet";
+import {IgtWalletStore as IgtWallet} from "@/stores/igt-wallet-store";
 import {IgtFeatures} from "@/ig-template/IgtFeatures";
 import {DiscreteUpgrade} from "@/ig-template/tools/upgrades";
 import {AddWallet} from "@/ig-template/mixins/AddWallet";
 import {IgtFeature} from "@/ig-template";
+import { createPinia, setActivePinia } from "pinia";
 
 class TestFeature extends AddWallet(IgtFeature) {
 
@@ -11,6 +13,7 @@ class TestFeature extends AddWallet(IgtFeature) {
         super('save-key');
     }
 
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     load(data: SaveData): void {
         throw new Error("Method not implemented.");
     }
@@ -27,6 +30,8 @@ class TestFeature extends AddWallet(IgtFeature) {
 
 describe('Wallet mixin', () => {
     const currency = 'dummy';
+
+    setActivePinia(createPinia())
     const wallet = new IgtWallet([currency]);
     wallet.gainCurrency(new Currency(10, currency));
 

@@ -2,7 +2,7 @@ import {IgtLootEntry} from "@/ig-template/tools/loot-tables/entries/IgtLootEntry
 import {Requirement} from "@/ig-template/tools/requirements/Requirement";
 import {NoRequirement} from "@/ig-template/tools/requirements/NoRequirement";
 import {IntRange} from "@/ig-template/tools/probability/IntRange";
-import {IgtWallet} from "@/ig-template/features/wallet/IgtWallet";
+import {IgtWalletStore as IgtWallet} from "@/stores/igt-wallet-store";
 import {CurrencyLoot} from "@/ig-template/tools/loot-tables/rewards/CurrencyLoot";
 import {CurrencyType} from "@/ig-template/features/wallet/CurrencyType";
 

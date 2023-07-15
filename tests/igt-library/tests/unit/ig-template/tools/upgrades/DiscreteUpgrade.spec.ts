@@ -4,8 +4,9 @@ import {UpgradeType} from "@/ig-template/tools/upgrades/UpgradeType";
 import {CurrencyBuilder} from "@/ig-template/features/wallet/CurrencyBuilder";
 import {ArrayBuilder} from "@/ig-template/util/ArrayBuilder";
 import {CurrencyType} from "@/ig-template/features/wallet/CurrencyType";
-import {IgtWallet} from "@/ig-template/features/wallet/IgtWallet";
+import {IgtWalletStore as IgtWallet} from "@/stores/igt-wallet-store";
 import {Currency} from "@/ig-template/features/wallet/Currency";
+import { createPinia, setActivePinia } from "pinia";
 
 
 describe('Discrete Upgrade', () => {
@@ -14,6 +15,7 @@ describe('Discrete Upgrade', () => {
     const type = 'empty' as UpgradeType
     const currencyType = 'dummy' as CurrencyType;
     let discreteUpgrade: DiscreteUpgrade
+    setActivePinia(createPinia())
     const wallet = new IgtWallet([currencyType]);
 
     beforeEach(() => {

@@ -6,7 +6,7 @@
 
 <script>
 import IgtFeature from "@/components/util/igt-feature.vue";
-import {IgtWallet} from "@/ig-template";
+import {IgtWalletStore as IgtWallet} from "@/stores/igt-wallet-store";
 
 export default {
   name: "igt-wallet",

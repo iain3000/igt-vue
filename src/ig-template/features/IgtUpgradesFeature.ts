@@ -1,5 +1,5 @@
 import {IgtAbstractUpgrade} from "@/ig-template/tools/upgrades/IgtAbstractUpgrade";
-import {IgtWallet} from "@/ig-template/features/wallet/IgtWallet";
+import {IgtWalletStore as IgtWallet} from "@/stores/igt-wallet-store";
 import {UpgradeId} from "@/ig-template/tools/upgrades/UpgradeId";
 import {IgtFeature} from "@/ig-template/features/IgtFeature";
 import {IgtFeatures} from "@/ig-template/IgtFeatures";

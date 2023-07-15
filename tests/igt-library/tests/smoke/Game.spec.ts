@@ -1,5 +1,5 @@
 import {IgtGame} from "@/ig-template/IgtGame";
-import {IgtWallet} from "@/ig-template/features/wallet/IgtWallet";
+import {IgtWalletStore as IgtWallet} from "@/stores/igt-wallet-store";
 import {IgtSettings} from "@/ig-template/features/settings/IgtSettings";
 import {IgtRedeemableCodes} from "@/ig-template/features/codes/IgtRedeemableCodes";
 import {IgtKeyItems} from "@/ig-template/features/key-items/IgtKeyItems";
@@ -7,6 +7,7 @@ import {IgtSpecialEvents} from "@/ig-template/features/special-events/IgtSpecial
 import {IgtStatistics} from "@/ig-template/features/statistics/IgtStatistics";
 import {IgtAchievements} from "@/ig-template/features/achievements";
 import {IgtFeatures} from "@/ig-template/IgtFeatures";
+import { createPinia, setActivePinia } from "pinia";
 
 class DummyGame extends IgtGame {
     features: IgtFeatures;
@@ -19,6 +20,8 @@ class DummyGame extends IgtGame {
     protected readonly SAVE_KEY: string = 'dummy';
     protected readonly TICK_DURATION: number = 0.05;
 }
+
+setActivePinia(createPinia())
 
 /**
  * This smoke test starts the game and runs 100 game ticks.

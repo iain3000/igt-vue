@@ -1,8 +1,34 @@
 import { CurrencyType } from "@/ig-template/features/wallet/CurrencyType";
 import { useWalletStore } from "./wallet-store";
-import { Currency, WalletSaveData } from "@/ig-template";
+import { Currency, IgtFeatures, WalletSaveData } from "@/ig-template";
 
 export class IgtWalletStore {
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
+    initialize(features: IgtFeatures) {
+        
+    }
+    start() {}
+    update() {}
+    payMultipleIfPossible(currencies: Currency[]): boolean {
+        if (this.hasCurrencies(currencies)) {
+            this.loseMultipleCurrencies(currencies);
+            return true;
+        }
+        return false;
+    }
+    loseMultipleCurrencies(currencies: Currency[]) {
+        for (const currency of currencies) {
+            this.loseCurrency(currency);
+        }
+    }
+    hasCurrencies(costs: Currency[]): boolean {
+        for (const cost of costs) {
+            if (!this.hasCurrency(cost)) {
+                return false;
+            }
+        }
+        return true;
+    }
     load(saveData: WalletSaveData) {
         saveData.currencies?.forEach(currencyData => {
             this.store.currencies[currencyData.type] = currencyData.amount ?? this.store.currencies[currencyData.type];

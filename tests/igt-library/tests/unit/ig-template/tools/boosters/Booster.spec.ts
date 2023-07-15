@@ -1,16 +1,19 @@
 import {CurrencyType} from "@/ig-template/features/wallet/CurrencyType";
-import {IgtWallet} from "@/ig-template/features/wallet/IgtWallet";
+import {IgtWalletStore as IgtWallet} from "@/stores/igt-wallet-store";
 import {Booster} from "@/ig-template/tools/boosters/Booster";
 import {BoosterTier} from "@/ig-template/tools/boosters/BoosterTier";
 import {Currency} from "@/ig-template/features/wallet/Currency";
 import {ImpossibleRequirement} from "@/ig-template/tools/requirements/ImpossibleRequirement";
+import { createPinia, setActivePinia } from "pinia";
 
 describe('Booster', () => {
     const money: CurrencyType = 'money'
 
+    setActivePinia(createPinia())
     const wallet = new IgtWallet([money])
     let booster: Booster;
     beforeEach(() => {
+
         // Reset wallet
         wallet.loseCurrency(new Currency(wallet.getAmount(money), money));
         wallet.gainCurrency(new Currency(10000, money));
