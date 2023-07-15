@@ -1,6 +1,5 @@
 import {IgtFeature} from "@/ig-template/features/IgtFeature";
 import {SaveData} from "@/ig-template/tools/saving/SaveData";
-// import {ISimpleEvent, SimpleEventDispatcher} from "strongly-typed-events";
 import {WeeklySpecialEvent} from "@/ig-template/features/special-events/WeeklySpecialEvent";
 import {AbstractSpecialEvent} from "@/ig-template/features/special-events/AbstractSpecialEvent";
 

@@ -1,7 +1,6 @@
 import {Currency} from "./Currency";
 import {CurrencyType} from "./CurrencyType";
 
-// import {ISimpleEvent, SimpleEventDispatcher} from "strongly-typed-events";
 import {IgtFeature} from "@/ig-template/features/IgtFeature";
 import {WalletSaveData} from "@/ig-template/features/wallet/WalletSaveData";
 

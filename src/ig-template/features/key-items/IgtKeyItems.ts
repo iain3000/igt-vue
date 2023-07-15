@@ -1,5 +1,4 @@
 import {IgtFeature} from "@/ig-template/features/IgtFeature";
-// import {ISimpleEvent, SimpleEventDispatcher} from "strongly-typed-events";
 import {KeyItem} from "@/ig-template/features/key-items/KeyItem";
 import {KeyItemId} from "@/ig-template/features/key-items/KeyItemId";
 import {KeyItemSaveData} from "@/ig-template/features/key-items/KeyItemSaveData";

@@ -1,4 +1,3 @@
-// import {ISimpleEvent, SimpleEventDispatcher} from "strongly-typed-events";
 import {Progress} from "@/ig-template/tools/requirements/Progress";
 import {Requirement} from "@/ig-template/tools/requirements/Requirement";
 import {NoRequirement} from "@/ig-template/tools/requirements/NoRequirement";

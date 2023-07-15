@@ -2,7 +2,6 @@ import {Achievement} from "@/ig-template/features/achievements/Achievement";
 import {AchievementId} from "@/ig-template/features/achievements/AchievementId";
 import {IgtFeature} from "@/ig-template/features/IgtFeature";
 import {AchievementsSaveData} from "@/ig-template/features/achievements/AchievementSaveData";
-// import {ISimpleEvent, SimpleEventDispatcher} from "strongly-typed-events";
 
 export class IgtAchievements extends IgtFeature {
     list: Record<AchievementId, Achievement>

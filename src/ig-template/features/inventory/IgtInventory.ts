@@ -10,7 +10,6 @@ import {AbstractItem} from "@/ig-template/features/items/AbstractItem";
 import {EmptyItem} from "@/ig-template/features/items/EmptyItem";
 import {InventorySaveData} from "@/ig-template/features/inventory/InventorySaveData";
 import {InventorySlotSaveData} from "@/ig-template/features/inventory/InventorySlotSaveData";
-// import {EventDispatcher, IEvent} from "strongly-typed-events";
 import {ItemAmount} from "@/ig-template/features/items/ItemAmount";
 
 export class IgtInventory extends IgtFeature {
