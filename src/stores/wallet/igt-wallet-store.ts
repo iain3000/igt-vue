@@ -90,7 +90,6 @@ export class IgtWalletStore extends IgtFeature {
         }
 
         this.store.gainCurrency(currency);
-        // this.store.currencies[currency.type] += currency.amount;
     }
 
     store = useWalletStore();
