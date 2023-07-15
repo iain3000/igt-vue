@@ -7,9 +7,6 @@ export const useAchievementStore = defineStore('achievement', {
         achievements: {} as Record<AchievementId, Achievement>,
     }),
     actions: {
-        // gainCurrency(currency: Currency) {
-        //     this.$state.currencies[currency.type] += currency.amount;
-        // }
         popAchivement(achievement: Achievement) {
             return achievement;
         }
