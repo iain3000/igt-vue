@@ -48,10 +48,6 @@ describe('Achievements', () => {
             )
         );
 
-        // achievements.onUnlock.subscribe(a => {
-        //     expect(a.key).toBe(id);
-        // });
-
         // eslint-disable-next-line @typescript-eslint/no-unused-vars
         achievements.store.$onAction(({ name, store, args, after, onError }) => {
             after((result) => {
