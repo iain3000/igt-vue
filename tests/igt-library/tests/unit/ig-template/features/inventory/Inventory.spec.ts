@@ -1,10 +1,11 @@
-import {IgtInventory} from "@/ig-template/features/inventory/IgtInventory";
 import {AbstractItem} from "@/ig-template/features/items/AbstractItem";
 import {ItemId} from "@/ig-template/features/items/ItemId";
 import {ItemType} from "@/ig-template/features/items/ItemType";
 import {AbstractConsumable} from "@/ig-template/features/items/AbstractConsumable";
 import {InventorySlot} from "@/ig-template/features/inventory/InventorySlot";
+import { createPinia, setActivePinia } from "pinia";
 
+import { IgtInventoryStore as IgtInventory } from "@/stores/inventory/igt-inventory-store";
 
 export class ExampleItem extends AbstractItem {
     constructor(id: ItemId, maxStack: number) {
@@ -36,6 +37,7 @@ describe('Inventory', () => {
     let consumable: ExampleConsumable;
 
     beforeEach(() => {
+        setActivePinia(createPinia());
         consumable = new ExampleConsumable('consumable' as ItemId, maxExampleStack);
     })
 
@@ -199,8 +201,8 @@ describe('Inventory', () => {
     test('Inventory interactions merge', () => {
         // Arrange
         const inventory: IgtInventory = new IgtInventory(2);
-        inventory.slots[0] = new InventorySlot(item1, 1)
-        inventory.slots[1] = new InventorySlot(item1, 2)
+        inventory.store.slots[0] = new InventorySlot(item1, 1)
+        inventory.store.slots[1] = new InventorySlot(item1, 2)
 
         // Act
         inventory.interactIndices(0, 1);

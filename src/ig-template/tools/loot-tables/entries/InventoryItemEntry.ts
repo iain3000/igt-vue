@@ -4,7 +4,7 @@ import {Requirement} from "@/ig-template/tools/requirements/Requirement";
 import {NoRequirement} from "@/ig-template/tools/requirements/NoRequirement";
 import {AbstractItem} from "@/ig-template/features/items/AbstractItem";
 import {IntRange} from "@/ig-template/tools/probability/IntRange";
-import {IgtInventory} from "@/ig-template/features/inventory/IgtInventory";
+import { IgtInventoryStore as IgtInventory } from "@/stores/inventory/igt-inventory-store";
 
 export class InventoryItemEntry extends IgtLootEntry {
     _inventory: IgtInventory;

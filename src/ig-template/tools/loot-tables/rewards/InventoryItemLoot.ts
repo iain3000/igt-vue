@@ -1,5 +1,5 @@
 import {IgtLoot} from "@/ig-template/tools/loot-tables/rewards/IgtLoot";
-import {IgtInventory} from "@/ig-template/features/inventory/IgtInventory";
+import { IgtInventoryStore as IgtInventory } from "@/stores/inventory/igt-inventory-store";
 import {AbstractItem} from "@/ig-template/features/items/AbstractItem";
 
 export class InventoryItemLoot extends IgtLoot {
