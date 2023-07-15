@@ -40,9 +40,11 @@ describe('Achievements', () => {
             )
         );
 
-        // achievements.onUnlock.subscribe(a => {
-        //     expect(a.key).toBe(id);
-        // });
+        test.skip('unlock subscription', () => {
+            achievements.onUnlock.subscribe(a => {
+                expect(a.key).toBe(id);
+            });
+        })
 
         // Simulate 3 seconds twice to check for completion once
         achievements.update(3)

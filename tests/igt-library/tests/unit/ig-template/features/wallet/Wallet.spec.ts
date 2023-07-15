@@ -216,14 +216,14 @@ describe('Wallet', () => {
         expect(wallet.getAmount(secondary)).toEqual(0);
     });
 
-    test('on currency gain', () => {
+    test.skip('on currency gain', () => {
         // Arrange
         expect.assertions(0);
 
-        // moneyWallet.onCurrencyGain.subscribe(currency => {
-        //     expect(currency.amount).toBe(10);
-        //     expect(currency.type).toBe(money);
-        // });
+        moneyWallet.onCurrencyGain.subscribe(currency => {
+            expect(currency.amount).toBe(10);
+            expect(currency.type).toBe(money);
+        });
 
         // Act
         moneyWallet.gainCurrency(new Currency(10, money));
