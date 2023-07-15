@@ -27,7 +27,6 @@ export class IgtAchievementStore extends IgtFeature{
                 const isJustUnlocked = achievement.unlock();
                 if (isJustUnlocked) {
                     this.store.popAchivement(achievement)
-                    // this._onUnlock.dispatch(achievement);
                 }
             }
         }
