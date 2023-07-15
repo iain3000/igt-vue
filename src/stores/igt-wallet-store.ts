@@ -69,7 +69,8 @@ export class IgtWalletStore {
             return;
         }
 
-        this.store.currencies[currency.type] += currency.amount;
+        this.store.gainCurrency(currency);
+        // this.store.currencies[currency.type] += currency.amount;
     }
 
     store = useWalletStore();

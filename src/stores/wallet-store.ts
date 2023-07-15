@@ -9,6 +9,10 @@ export const useWalletStore = defineStore('wallet', {
         multipliers: {} as Record<CurrencyType, number>,
         supportedCurrencies: [] as CurrencyType[]
     }),
-    actions: {},
+    actions: {
+        gainCurrency(currency: Currency) {
+            this.$state.currencies[currency.type] += currency.amount;
+        }
+    },
     getters: {},
 })
