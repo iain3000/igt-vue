@@ -1,14 +1,8 @@
 import { CurrencyType } from "@/ig-template/features/wallet/CurrencyType";
 import { useWalletStore } from "./wallet-store";
-import { Currency, IgtFeatures, WalletSaveData } from "@/ig-template";
+import { Currency, IgtFeature, WalletSaveData } from "@/ig-template";
 
-export class IgtWalletStore {
-    // eslint-disable-next-line @typescript-eslint/no-unused-vars
-    initialize(features: IgtFeatures) {
-        
-    }
-    start() {}
-    update() {}
+export class IgtWalletStore extends IgtFeature {
     payMultipleIfPossible(currencies: Currency[]): boolean {
         if (this.hasCurrencies(currencies)) {
             this.loseMultipleCurrencies(currencies);
@@ -103,8 +97,8 @@ export class IgtWalletStore {
     saveKey = "";
 
     constructor(supportedCurrencies: CurrencyType[], saveKey: string = "igt-wallet-store") {
+        super(saveKey)
         this.store.supportedCurrencies = supportedCurrencies;
-        this.saveKey = saveKey;
 
         for (const type of this.store.supportedCurrencies) {
             this.store.currencies[type] = 0;
