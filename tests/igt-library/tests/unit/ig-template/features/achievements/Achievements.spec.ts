@@ -10,7 +10,7 @@ import {ArrayStatistic} from "@/ig-template/features/statistics/ArrayStatistic";
 import {StatisticId} from "@/ig-template/features/statistics/StatisticId";
 import {ArrayStatisticRequirement} from "@/ig-template/features/statistics/requirements/ArrayStatisticRequirement";
 
-import { IgtAchievementStore as IgtAchievements } from "@/stores/igt-achievement-store";
+import { IgtAchievementStore as IgtAchievements } from "@/stores/achievements/igt-achievement-store";
 import { createPinia, setActivePinia } from "pinia";
 
 

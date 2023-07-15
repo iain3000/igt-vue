@@ -1,6 +1,6 @@
 import {SaveData} from "@/ig-template/tools/saving";
 import {Currency} from "@/ig-template/features/wallet";
-import {IgtWalletStore as IgtWallet} from "@/stores/igt-wallet-store";
+import {IgtWalletStore as IgtWallet} from "@/stores/wallet/igt-wallet-store";
 import {IgtFeatures} from "@/ig-template/IgtFeatures";
 import {DiscreteUpgrade} from "@/ig-template/tools/upgrades";
 import {AddWallet} from "@/ig-template/mixins/AddWallet";

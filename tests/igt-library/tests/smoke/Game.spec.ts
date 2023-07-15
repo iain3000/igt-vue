@@ -1,11 +1,11 @@
 import {IgtGame} from "@/ig-template/IgtGame";
-import {IgtWalletStore as IgtWallet} from "@/stores/igt-wallet-store";
+import {IgtWalletStore as IgtWallet} from "@/stores/wallet/igt-wallet-store";
 import {IgtSettings} from "@/ig-template/features/settings/IgtSettings";
 import {IgtRedeemableCodes} from "@/ig-template/features/codes/IgtRedeemableCodes";
 import {IgtKeyItems} from "@/ig-template/features/key-items/IgtKeyItems";
 import {IgtSpecialEvents} from "@/ig-template/features/special-events/IgtSpecialEvents";
 import {IgtStatistics} from "@/ig-template/features/statistics/IgtStatistics";
-import { IgtAchievementStore as IgtAchievements } from "@/stores/igt-achievement-store";
+import { IgtAchievementStore as IgtAchievements } from "@/stores/achievements/igt-achievement-store";
 
 import {IgtFeatures} from "@/ig-template/IgtFeatures";
 import { createPinia, setActivePinia } from "pinia";

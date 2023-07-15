@@ -6,7 +6,7 @@ import {UpgradeType} from "@/ig-template/tools/upgrades/UpgradeType";
 import {UpgradeId} from "@/ig-template/tools/upgrades/UpgradeId";
 import {Currency} from "@/ig-template/features/wallet/Currency";
 import {UpgradeSaveData} from "@/ig-template/tools/upgrades/UpgradeSaveData";
-import {IgtWalletStore as IgtWallet} from "@/stores/igt-wallet-store";
+import {IgtWalletStore as IgtWallet} from "@/stores/wallet/igt-wallet-store";
 
 export abstract class IgtAbstractUpgrade implements Saveable {
     id: UpgradeId;

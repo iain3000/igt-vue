@@ -1,4 +1,4 @@
-import {IgtWalletStore as IgtWallet} from "@/stores/igt-wallet-store";
+import {IgtWalletStore as IgtWallet} from "@/stores/wallet/igt-wallet-store";
 import {IgtSettings} from "@/ig-template/features/settings/IgtSettings";
 import {IgtStatistics} from "@/ig-template/features/statistics/IgtStatistics";
 import { IgtAchievementStore as IgtAchievements } from "@/stores/igt-achievement-store";

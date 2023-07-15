@@ -1,5 +1,5 @@
 import {BoosterTier} from "@/ig-template/tools/boosters/BoosterTier";
-import {IgtWalletStore as IgtWallet} from "@/stores/igt-wallet-store";
+import {IgtWalletStore as IgtWallet} from "@/stores/wallet/igt-wallet-store";
 
 export class Booster {
     protected readonly _wallet: IgtWallet;

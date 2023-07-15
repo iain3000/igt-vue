@@ -1,5 +1,5 @@
 import {CurrencyType} from "@/ig-template/features/wallet/CurrencyType";
-import {IgtWalletStore as IgtWallet} from "@/stores/igt-wallet-store";
+import {IgtWalletStore as IgtWallet} from "@/stores/wallet/igt-wallet-store";
 import {Booster} from "@/ig-template/tools/boosters/Booster";
 import {BoosterTier} from "@/ig-template/tools/boosters/BoosterTier";
 import {Currency} from "@/ig-template/features/wallet/Currency";

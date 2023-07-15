@@ -1,6 +1,6 @@
 import {Requirement} from "@/ig-template/tools/requirements/Requirement";
 import {CurrencyType} from "@/ig-template/features/wallet/CurrencyType";
-import {IgtWalletStore as IgtWallet} from "@/stores/igt-wallet-store";
+import {IgtWalletStore as IgtWallet} from "@/stores/wallet/igt-wallet-store";
 
 export class CurrencyRequirement extends Requirement {
 
