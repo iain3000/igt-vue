@@ -21,7 +21,8 @@
 </template>
 <script>
 import IgtFeature from "@/components/util/igt-feature.vue";
-import {IgtAchievements} from "@/ig-template";
+import { IgtAchievementStore as IgtAchievements } from "@/stores/igt-achievement-store";
+
 import { getImageUrl } from "@/utils";
 
 export default {

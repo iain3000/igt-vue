@@ -1,4 +1,5 @@
-import {IgtAchievements} from "@/ig-template/features/achievements/IgtAchievements";
+// import { IgtAchievementStore as IgtAchievements } from "@/stores/igt-achievement-store";
+
 import {Achievement} from "@/ig-template/features/achievements/Achievement";
 import {AchievementId} from "@/ig-template/features/achievements/AchievementId";
 import {NoRequirement} from "@/ig-template/tools/requirements/NoRequirement";
@@ -9,10 +10,17 @@ import {ArrayStatistic} from "@/ig-template/features/statistics/ArrayStatistic";
 import {StatisticId} from "@/ig-template/features/statistics/StatisticId";
 import {ArrayStatisticRequirement} from "@/ig-template/features/statistics/requirements/ArrayStatisticRequirement";
 
+import { IgtAchievementStore as IgtAchievements } from "@/stores/igt-achievement-store";
+import { createPinia, setActivePinia } from "pinia";
+
 
 describe('Achievements', () => {
     const id = "dummy" as AchievementId;
     const array = new ArrayStatistic("array" as StatisticId, 'array stat', [0, 0, 0]);
+
+    beforeEach(() => {
+        setActivePinia(createPinia())
+    })
 
     test('array stat achievement', () => {
         const achievements = new IgtAchievements();
@@ -30,7 +38,7 @@ describe('Achievements', () => {
     });
 
     test('test unlock', () => {
-        expect.assertions(1);
+        expect.assertions(2);
 
         const achievements = new IgtAchievements();
         const achievement = achievements.registerAchievement(
@@ -40,12 +48,22 @@ describe('Achievements', () => {
             )
         );
 
-        test.skip('unlock subscription', () => {
-            achievements.onUnlock.subscribe(a => {
-                expect(a.key).toBe(id);
-            });
+        // achievements.onUnlock.subscribe(a => {
+        //     expect(a.key).toBe(id);
+        // });
+
+        // eslint-disable-next-line @typescript-eslint/no-unused-vars
+        achievements.store.$onAction(({ name, store, args, after, onError }) => {
+            after((result) => {
+              expect(result.key).toBe(id);
+            })
+            onError((error) => {
+                console.error(error);
+                throw(error);
+            })
         })
 
+        
         // Simulate 3 seconds twice to check for completion once
         achievements.update(3)
         achievements.update(3)

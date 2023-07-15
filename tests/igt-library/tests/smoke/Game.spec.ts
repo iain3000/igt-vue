@@ -5,7 +5,8 @@ import {IgtRedeemableCodes} from "@/ig-template/features/codes/IgtRedeemableCode
 import {IgtKeyItems} from "@/ig-template/features/key-items/IgtKeyItems";
 import {IgtSpecialEvents} from "@/ig-template/features/special-events/IgtSpecialEvents";
 import {IgtStatistics} from "@/ig-template/features/statistics/IgtStatistics";
-import {IgtAchievements} from "@/ig-template/features/achievements";
+import { IgtAchievementStore as IgtAchievements } from "@/stores/igt-achievement-store";
+
 import {IgtFeatures} from "@/ig-template/IgtFeatures";
 import { createPinia, setActivePinia } from "pinia";
 
