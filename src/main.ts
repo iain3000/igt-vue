@@ -10,6 +10,7 @@ import { dateFormat, humanizeString, numberFormat } from "@/VueFilters";
 import "./index.css";
 
 import { createApp } from 'vue'
+import { createPinia } from 'pinia';
 
 // const localApp = createApp(VueApp)
 
@@ -45,6 +46,8 @@ window.onload = function () {
     //     render: h => h(VueApp),
     // }).$mount('#app')
 
+    const pinia = createPinia()
+
     const localApp = createApp(VueApp);
 
     localApp.config.globalProperties.$filters = {
@@ -53,7 +56,7 @@ window.onload = function () {
         numberFormat
       }
 
-      localApp.use(Notifications).mount('#app');
+      localApp.use(pinia).use(Notifications).mount('#app');
 };
 
 
