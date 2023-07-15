@@ -1,4 +1,4 @@
-import {IgtFeatures} from "incremental-game-template";
+import {IgtFeatures} from "@/ig-template";
 
 export interface MyFeatures extends IgtFeatures {
 

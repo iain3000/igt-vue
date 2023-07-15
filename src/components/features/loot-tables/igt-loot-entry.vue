@@ -18,7 +18,7 @@
 
 <script>
 import IgtKeyItemSmall from "@/components/features/key-items/igt-key-item-small.vue";
-import {CurrencyEntry, IgtLootEntry, InventoryItemEntry, KeyItemEntry, TableEntry} from "incremental-game-template";
+import {CurrencyEntry, IgtLootEntry, InventoryItemEntry, KeyItemEntry, TableEntry} from "@/ig-template";
 
 export default {
   name: "igt-loot-entry",

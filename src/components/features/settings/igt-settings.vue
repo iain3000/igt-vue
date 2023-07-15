@@ -6,7 +6,7 @@
 
 <script>
 import IgtFeature from "@/components/util/igt-feature.vue";
-import {IgtSettings} from "incremental-game-template";
+import {IgtSettings} from "@/ig-template";
 import {App} from "@/App";
 
 export default {

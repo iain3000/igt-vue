@@ -17,7 +17,7 @@
 
 <script>
 
-import {InventorySlot} from "incremental-game-template";
+import {InventorySlot} from "@/ig-template";
 
 export default {
   name: "igt-inventory-slot",

@@ -12,7 +12,7 @@
 </template>
 
 <script>
-import {BooleanSetting} from "incremental-game-template";
+import {BooleanSetting} from "@/ig-template";
 
 export default {
   name: "igt-boolean-setting",

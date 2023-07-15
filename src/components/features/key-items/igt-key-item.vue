@@ -21,7 +21,7 @@
 </template>
 
 <script>
-import {KeyItem} from "incremental-game-template";
+import {KeyItem} from "@/ig-template";
 
 import { getImageUrl } from "@/utils";
 

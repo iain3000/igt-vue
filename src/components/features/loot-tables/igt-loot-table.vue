@@ -20,7 +20,7 @@
 
 <script>
 import IgtLootEntry from "@/components/features/loot-tables/igt-loot-entry.vue";
-import {LootTable} from "incremental-game-template";
+import {LootTable} from "@/ig-template";
 
 export default {
   name: "igt-loot-table",

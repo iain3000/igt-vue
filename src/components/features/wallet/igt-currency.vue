@@ -14,7 +14,7 @@
 </template>
 
 <script>
-import {Currency} from "incremental-game-template";
+import {Currency} from "@/ig-template";
 
 export default {
   name: "igt-currency",

@@ -8,7 +8,7 @@
 </template>
 
 <script>
-import {FunctionField} from "incremental-game-template";
+import {FunctionField} from "@/ig-template";
 
 export default {
   name: "igt-button-field",

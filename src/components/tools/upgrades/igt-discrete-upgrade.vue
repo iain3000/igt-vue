@@ -11,7 +11,7 @@
 
 <script>
 import IgtCurrency from "@/components/features/wallet/igt-currency.vue";
-import {IgtAbstractUpgrade} from "incremental-game-template";
+import {IgtAbstractUpgrade} from "@/ig-template";
 
 export default {
   name: "igt-upgrade",
