@@ -6,10 +6,6 @@ export const useAchievementStore = defineStore('achievement', {
     state: () => ({
         achievements: {} as Record<AchievementId, Achievement>,
     }),
-    actions: {
-        popAchivement(achievement: Achievement) {
-            return achievement;
-        }
-    },
+    actions: {},
     getters: {},
 })
