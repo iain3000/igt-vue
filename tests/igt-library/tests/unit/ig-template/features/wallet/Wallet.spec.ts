@@ -222,16 +222,9 @@ describe('Wallet', () => {
         // Arrange
         expect.assertions(1);
 
-        // eslint-disable-next-line @typescript-eslint/no-unused-vars
-        moneyWallet.store.$onAction(({ name, store, args, after, onError }) => {
-            after(() => {
-              expect(store.currencies[money]).toBe(10);
-            })
-            onError((error) => {
-                console.error(error);
-                throw(error);
-            })
-           })
+        moneyWallet.store.$subscribe((mutation, state) => {
+            expect(state.currencies[money]).toBe(10);
+        })
 
         // Act
         moneyWallet.gainCurrency(new Currency(10, money));
