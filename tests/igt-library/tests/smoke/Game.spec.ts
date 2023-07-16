@@ -2,7 +2,8 @@ import {IgtGame} from "@/igt-library/IgtGame";
 import {IgtWalletStore as IgtWallet} from "@/stores/wallet/igt-wallet-store";
 import {IgtSettings} from "@/igt-library/features/settings/IgtSettings";
 import {IgtRedeemableCodes} from "@/igt-library/features/codes/IgtRedeemableCodes";
-import {IgtKeyItems} from "@/igt-library/features/key-items/IgtKeyItems";
+import { IgtKeyItemsStore as IgtKeyItems } from "@/stores/key-items/igt-key-items-store";
+
 import {IgtSpecialEvents} from "@/igt-library/features/special-events/IgtSpecialEvents";
 import {IgtStatistics} from "@/igt-library/features/statistics/IgtStatistics";
 import { IgtAchievementStore as IgtAchievements } from "@/stores/achievements/igt-achievement-store";

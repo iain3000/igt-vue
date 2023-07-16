@@ -1,5 +1,6 @@
 import {Requirement} from "@/igt-library/tools/requirements/Requirement";
-import {IgtKeyItems} from "@/igt-library/features/key-items/IgtKeyItems";
+import { IgtKeyItemsStore as IgtKeyItems } from "@/stores/key-items/igt-key-items-store";
+
 import {KeyItemId} from "@/igt-library/features/key-items/KeyItemId";
 
 export class KeyItemRequirement extends Requirement {

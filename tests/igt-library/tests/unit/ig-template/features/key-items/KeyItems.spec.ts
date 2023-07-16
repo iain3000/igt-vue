@@ -1,11 +1,16 @@
 import {ImpossibleRequirement} from "@/igt-library/tools/requirements/ImpossibleRequirement";
 import {KeyItemId} from "@/igt-library/features/key-items/KeyItemId";
-import {IgtKeyItems} from "@/igt-library/features/key-items/IgtKeyItems";
 import {KeyItem} from "@/igt-library/features/key-items/KeyItem";
 
+import { IgtKeyItemsStore as IgtKeyItems } from "@/stores/key-items/igt-key-items-store";
+import { createPinia, setActivePinia } from "pinia";
 
 describe('Key Items', () => {
     const id = "dummy" as KeyItemId;
+
+    beforeEach(() => {
+        setActivePinia(createPinia());
+    })
 
     test('normal usage', () => {
         const keyItems = new IgtKeyItems();

@@ -6,7 +6,8 @@ import { IgtAchievementStore as IgtAchievements } from "@/stores/achievements/ig
 import {IgtRedeemableCodes} from "@/igt-library/features/codes/IgtRedeemableCodes";
 import {IgtSpecialEvents} from "@/igt-library/features/special-events/IgtSpecialEvents";
 import { IgtInventoryStore as IgtInventory } from "@/stores/inventory/igt-inventory-store";
-import {IgtKeyItems} from "@/igt-library/features/key-items/IgtKeyItems";
+import { IgtKeyItemsStore as IgtKeyItems } from "@/stores/key-items/igt-key-items-store";
+
 import {LootTables} from "@/igt-library/features/loot-tables/LootTables";
 import {IgtItemList} from "@/igt-library/features/items/IgtItemList";
 

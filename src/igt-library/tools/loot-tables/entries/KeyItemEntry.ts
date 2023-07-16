@@ -2,7 +2,8 @@ import {IgtLootEntry} from "@/igt-library/tools/loot-tables/entries/IgtLootEntry
 import {Requirement} from "@/igt-library/tools/requirements/Requirement";
 import {NoRequirement} from "@/igt-library/tools/requirements/NoRequirement";
 import {IntRange} from "@/igt-library/tools/probability/IntRange";
-import {IgtKeyItems} from "@/igt-library/features/key-items/IgtKeyItems";
+import { IgtKeyItemsStore as IgtKeyItems } from "@/stores/key-items/igt-key-items-store";
+
 import {KeyItemLoot} from "@/igt-library/tools/loot-tables/rewards/KeyItemLoot";
 import {KeyItem} from "@/igt-library/features/key-items/KeyItem";
 

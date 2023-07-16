@@ -1,5 +1,6 @@
 import {IgtLoot} from "@/igt-library/tools/loot-tables/rewards/IgtLoot";
-import {IgtKeyItems} from "@/igt-library/features/key-items/IgtKeyItems";
+import { IgtKeyItemsStore as IgtKeyItems } from "@/stores/key-items/igt-key-items-store";
+
 import {KeyItem} from "@/igt-library/features/key-items/KeyItem";
 
 export class KeyItemLoot extends IgtLoot {
