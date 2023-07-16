@@ -1,6 +1,6 @@
-import {HotKeys} from "@/ig-template/tools/hotkeys/HotKeys";
-import {KeyBind} from "@/ig-template/tools/hotkeys/KeyBind";
-import {BooleanRequirement} from "@/ig-template/tools/requirements/BooleanRequirement";
+import {HotKeys} from "@/igt-library/tools/hotkeys/HotKeys";
+import {KeyBind} from "@/igt-library/tools/hotkeys/KeyBind";
+import {BooleanRequirement} from "@/igt-library/tools/requirements/BooleanRequirement";
 
 describe('Keybind', () => {
     const keys = "ctrl+s";

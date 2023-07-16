@@ -1,7 +1,7 @@
-import {IgtLoot} from "@/ig-template/tools/loot-tables/rewards/IgtLoot";
-import {Currency} from "@/ig-template/features/wallet/Currency";
+import {IgtLoot} from "@/igt-library/tools/loot-tables/rewards/IgtLoot";
+import {Currency} from "@/igt-library/features/wallet/Currency";
 import {IgtWalletStore as IgtWallet} from "@/stores/wallet/igt-wallet-store";
-import {CurrencyType} from "@/ig-template/features/wallet/CurrencyType";
+import {CurrencyType} from "@/igt-library/features/wallet/CurrencyType";
 
 export class CurrencyLoot extends IgtLoot {
 

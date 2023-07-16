@@ -1,5 +1,5 @@
-import {SaveData} from "@/ig-template/tools/saving/SaveData";
-import {SettingSaveData} from "@/ig-template/features/settings/SettingSaveData";
+import {SaveData} from "@/igt-library/tools/saving/SaveData";
+import {SettingSaveData} from "@/igt-library/features/settings/SettingSaveData";
 
 export interface SettingsSaveData extends SaveData {
     list: SettingSaveData[];

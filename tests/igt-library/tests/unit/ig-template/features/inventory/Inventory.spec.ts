@@ -1,8 +1,8 @@
-import {AbstractItem} from "@/ig-template/features/items/AbstractItem";
-import {ItemId} from "@/ig-template/features/items/ItemId";
-import {ItemType} from "@/ig-template/features/items/ItemType";
-import {AbstractConsumable} from "@/ig-template/features/items/AbstractConsumable";
-import {InventorySlot} from "@/ig-template/features/inventory/InventorySlot";
+import {AbstractItem} from "@/igt-library/features/items/AbstractItem";
+import {ItemId} from "@/igt-library/features/items/ItemId";
+import {ItemType} from "@/igt-library/features/items/ItemType";
+import {AbstractConsumable} from "@/igt-library/features/items/AbstractConsumable";
+import {InventorySlot} from "@/igt-library/features/inventory/InventorySlot";
 import { createPinia, setActivePinia } from "pinia";
 
 import { IgtInventoryStore as IgtInventory } from "@/stores/inventory/igt-inventory-store";

@@ -1,8 +1,8 @@
-import {IgtFeature} from "@/ig-template/features/IgtFeature";
-import {SettingsSaveData} from "@/ig-template/features/settings/SettingsSaveData";
-import {Setting} from "@/ig-template/features/settings/Setting";
-import {SettingId} from "@/ig-template/features/settings/SettingId";
-import {SettingsValue} from "@/ig-template/features/settings/SettingsValueType";
+import {IgtFeature} from "@/igt-library/features/IgtFeature";
+import {SettingsSaveData} from "@/igt-library/features/settings/SettingsSaveData";
+import {Setting} from "@/igt-library/features/settings/Setting";
+import {SettingId} from "@/igt-library/features/settings/SettingId";
+import {SettingsValue} from "@/igt-library/features/settings/SettingsValueType";
 
 export class IgtSettings extends IgtFeature {
     list: Setting[];

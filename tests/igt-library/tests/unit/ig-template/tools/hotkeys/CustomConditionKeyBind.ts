@@ -1,5 +1,5 @@
-import {HotKeys} from "@/ig-template/tools/hotkeys/HotKeys";
-import {CustomConditionKeyBind} from "@/ig-template/tools/hotkeys/CustomConditionKeyBind";
+import {HotKeys} from "@/igt-library/tools/hotkeys/HotKeys";
+import {CustomConditionKeyBind} from "@/igt-library/tools/hotkeys/CustomConditionKeyBind";
 
 describe('Custom Condition Key Bind', () => {
     const keys = "ctrl+s";

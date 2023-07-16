@@ -1,5 +1,5 @@
-import { AbstractItem, InventorySlot } from "@/ig-template";
-import { ItemId } from "@/ig-template/features/items/ItemId";
+import { AbstractItem, InventorySlot } from "@/igt-library";
+import { ItemId } from "@/igt-library/features/items/ItemId";
 import { defineStore } from "pinia";
 
 export const useInventoryStore = defineStore('inventory', {

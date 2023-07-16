@@ -1,14 +1,14 @@
 // import { IgtAchievementStore as IgtAchievements } from "@/stores/igt-achievement-store";
 
-import {Achievement} from "@/ig-template/features/achievements/Achievement";
-import {AchievementId} from "@/ig-template/features/achievements/AchievementId";
-import {NoRequirement} from "@/ig-template/tools/requirements/NoRequirement";
-import {ImpossibleRequirement} from "@/ig-template/tools/requirements/ImpossibleRequirement";
-import {CustomAchievement} from "@/ig-template/features/achievements/CustomAchievement";
-import {Progress} from "@/ig-template/tools/requirements/Progress";
-import {ArrayStatistic} from "@/ig-template/features/statistics/ArrayStatistic";
-import {StatisticId} from "@/ig-template/features/statistics/StatisticId";
-import {ArrayStatisticRequirement} from "@/ig-template/features/statistics/requirements/ArrayStatisticRequirement";
+import {Achievement} from "@/igt-library/features/achievements/Achievement";
+import {AchievementId} from "@/igt-library/features/achievements/AchievementId";
+import {NoRequirement} from "@/igt-library/tools/requirements/NoRequirement";
+import {ImpossibleRequirement} from "@/igt-library/tools/requirements/ImpossibleRequirement";
+import {CustomAchievement} from "@/igt-library/features/achievements/CustomAchievement";
+import {Progress} from "@/igt-library/tools/requirements/Progress";
+import {ArrayStatistic} from "@/igt-library/features/statistics/ArrayStatistic";
+import {StatisticId} from "@/igt-library/features/statistics/StatisticId";
+import {ArrayStatisticRequirement} from "@/igt-library/features/statistics/requirements/ArrayStatisticRequirement";
 
 import { IgtAchievementStore as IgtAchievements } from "@/stores/achievements/igt-achievement-store";
 import { createPinia, setActivePinia } from "pinia";

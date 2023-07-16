@@ -1,7 +1,7 @@
-import {HotKeys} from "@/ig-template/tools/hotkeys/HotKeys";
-import {NoRequirement} from "@/ig-template/tools/requirements/NoRequirement";
-import {KeyBind} from "@/ig-template/tools/hotkeys/KeyBind";
-import {KeyBindDescription} from "@/ig-template/tools/hotkeys/KeyBindDescription";
+import {HotKeys} from "@/igt-library/tools/hotkeys/HotKeys";
+import {NoRequirement} from "@/igt-library/tools/requirements/NoRequirement";
+import {KeyBind} from "@/igt-library/tools/hotkeys/KeyBind";
+import {KeyBindDescription} from "@/igt-library/tools/hotkeys/KeyBindDescription";
 
 describe('HotKeys', () => {
     beforeEach(() => {

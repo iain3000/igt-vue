@@ -1,5 +1,5 @@
-import {Requirement} from "@/ig-template/tools/requirements/Requirement";
-import {NumberStatistic} from "@/ig-template/features/statistics/NumberStatistic";
+import {Requirement} from "@/igt-library/tools/requirements/Requirement";
+import {NumberStatistic} from "@/igt-library/features/statistics/NumberStatistic";
 
 export class NumberStatisticRequirement extends Requirement {
     statistic: NumberStatistic;

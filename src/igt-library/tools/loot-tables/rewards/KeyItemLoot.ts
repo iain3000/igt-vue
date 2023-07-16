@@ -1,6 +1,6 @@
-import {IgtLoot} from "@/ig-template/tools/loot-tables/rewards/IgtLoot";
-import {IgtKeyItems} from "@/ig-template/features/key-items/IgtKeyItems";
-import {KeyItem} from "@/ig-template/features/key-items/KeyItem";
+import {IgtLoot} from "@/igt-library/tools/loot-tables/rewards/IgtLoot";
+import {IgtKeyItems} from "@/igt-library/features/key-items/IgtKeyItems";
+import {KeyItem} from "@/igt-library/features/key-items/KeyItem";
 
 export class KeyItemLoot extends IgtLoot {
     loot: KeyItem;

@@ -1,8 +1,8 @@
-import {SpecialEventId} from "@/ig-template/features/special-events/SpecialEventId";
-import {Requirement} from "@/ig-template/tools/requirements/Requirement";
-import {NoRequirement} from "@/ig-template/tools/requirements/NoRequirement";
-import {SpecialEvent} from "@/ig-template/features/special-events/SpecialEvent";
-import {DateHelper} from "@/ig-template/util/DateHelper";
+import {SpecialEventId} from "@/igt-library/features/special-events/SpecialEventId";
+import {Requirement} from "@/igt-library/tools/requirements/Requirement";
+import {NoRequirement} from "@/igt-library/tools/requirements/NoRequirement";
+import {SpecialEvent} from "@/igt-library/features/special-events/SpecialEvent";
+import {DateHelper} from "@/igt-library/util/DateHelper";
 
 /**
  * A special event that happens weekly.

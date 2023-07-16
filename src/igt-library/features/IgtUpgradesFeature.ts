@@ -1,9 +1,9 @@
-import {IgtAbstractUpgrade} from "@/ig-template/tools/upgrades/IgtAbstractUpgrade";
+import {IgtAbstractUpgrade} from "@/igt-library/tools/upgrades/IgtAbstractUpgrade";
 import {IgtWalletStore as IgtWallet} from "@/stores/wallet/igt-wallet-store";
-import {UpgradeId} from "@/ig-template/tools/upgrades/UpgradeId";
-import {IgtFeature} from "@/ig-template/features/IgtFeature";
-import {IgtFeatures} from "@/ig-template/IgtFeatures";
-import {UpgradesFeatureSaveData} from "@/ig-template/tools/saving/UpgradesFeatureSaveData";
+import {UpgradeId} from "@/igt-library/tools/upgrades/UpgradeId";
+import {IgtFeature} from "@/igt-library/features/IgtFeature";
+import {IgtFeatures} from "@/igt-library/IgtFeatures";
+import {UpgradesFeatureSaveData} from "@/igt-library/tools/saving/UpgradesFeatureSaveData";
 
 /**
  * An abstract class for all features that need to buy Upgrades

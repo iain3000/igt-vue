@@ -1,13 +1,13 @@
 /**
  * Statistics class to keep track of increasing numbers
  */
-import {StatisticId} from "@/ig-template/features/statistics/StatisticId";
-import {NumberStatistic} from "@/ig-template/features/statistics/NumberStatistic";
-import {IgtFeature} from "@/ig-template/features/IgtFeature";
-import {AbstractStatistic} from "@/ig-template/features/statistics/AbstractStatistic";
-import {StatisticsSaveData} from "@/ig-template/features/statistics/StatisticsSaveData";
-import {ArrayStatistic} from "@/ig-template/features/statistics/ArrayStatistic";
-import {DictStatistic} from "@/ig-template/features/statistics/DictStatistic";
+import {StatisticId} from "@/igt-library/features/statistics/StatisticId";
+import {NumberStatistic} from "@/igt-library/features/statistics/NumberStatistic";
+import {IgtFeature} from "@/igt-library/features/IgtFeature";
+import {AbstractStatistic} from "@/igt-library/features/statistics/AbstractStatistic";
+import {StatisticsSaveData} from "@/igt-library/features/statistics/StatisticsSaveData";
+import {ArrayStatistic} from "@/igt-library/features/statistics/ArrayStatistic";
+import {DictStatistic} from "@/igt-library/features/statistics/DictStatistic";
 
 export class IgtStatistics extends IgtFeature {
 

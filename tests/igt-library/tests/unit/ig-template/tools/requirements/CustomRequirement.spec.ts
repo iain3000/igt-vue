@@ -1,4 +1,4 @@
-import {CustomRequirement} from "@/ig-template/tools/requirements/CustomRequirement";
+import {CustomRequirement} from "@/igt-library/tools/requirements/CustomRequirement";
 
 
 describe('Custom Requirement', () => {

@@ -1,8 +1,8 @@
-import {SettingId} from "@/ig-template/features/settings/SettingId";
-import {Requirement} from "@/ig-template/tools/requirements/Requirement";
-import {NoRequirement} from "@/ig-template/tools/requirements/NoRequirement";
-import {SettingOption} from "@/ig-template/features/settings/SettingOption";
-import {SettingsValue} from "@/ig-template/features/settings/SettingsValueType";
+import {SettingId} from "@/igt-library/features/settings/SettingId";
+import {Requirement} from "@/igt-library/tools/requirements/Requirement";
+import {NoRequirement} from "@/igt-library/tools/requirements/NoRequirement";
+import {SettingOption} from "@/igt-library/features/settings/SettingOption";
+import {SettingsValue} from "@/igt-library/features/settings/SettingsValueType";
 
 
 export abstract class Setting {

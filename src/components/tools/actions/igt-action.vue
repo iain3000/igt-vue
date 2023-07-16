@@ -13,7 +13,7 @@
 
 
 import IgtProgressBar from "@/components/util/igt-progress-bar.vue";
-import {IgtAction} from "@/ig-template";
+import {IgtAction} from "@/igt-library";
 
 export default {
   name: "igt-action",

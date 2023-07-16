@@ -18,7 +18,7 @@
 <script>
 import IgtFeature from "@/components/util/igt-feature.vue";
 import IgtSpecialEvent from "@/components/features/special-events/igt-special-event.vue";
-import {IgtSpecialEvents} from "@/ig-template";
+import {IgtSpecialEvents} from "@/igt-library";
 
 export default {
   name: "igt-special-events",

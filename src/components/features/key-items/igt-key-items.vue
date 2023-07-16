@@ -9,7 +9,7 @@
 <script>
 import IgtFeature from "@/components/util/igt-feature.vue";
 import IgtKeyItem from "@/components/features/key-items/igt-key-item.vue";
-import {IgtKeyItems} from "@/ig-template";
+import {IgtKeyItems} from "@/igt-library";
 
 export default {
   name: "igt-key-items",

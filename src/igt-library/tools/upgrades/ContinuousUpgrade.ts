@@ -1,7 +1,7 @@
-import {IgtAbstractUpgrade} from "@/ig-template/tools/upgrades/IgtAbstractUpgrade";
-import {Currency} from "@/ig-template/features/wallet/Currency";
-import {UpgradeId} from "@/ig-template/tools/upgrades/UpgradeId";
-import {UpgradeType} from "@/ig-template/tools/upgrades/UpgradeType";
+import {IgtAbstractUpgrade} from "@/igt-library/tools/upgrades/IgtAbstractUpgrade";
+import {Currency} from "@/igt-library/features/wallet/Currency";
+import {UpgradeId} from "@/igt-library/tools/upgrades/UpgradeId";
+import {UpgradeType} from "@/igt-library/tools/upgrades/UpgradeType";
 
 export class ContinuousUpgrade extends IgtAbstractUpgrade {
     bonusFunc: (level: number) => number;

@@ -20,7 +20,7 @@ import IgtTab from "@/components/util/igt-tab.vue";
 import IgtDisplayField from "@/components/developer-panel/fields/igt-display-field.vue";
 import IgtChoiceField from "@/components/developer-panel/fields/igt-choice-field.vue";
 import IgtFeature from "@/components/util/igt-feature.vue";
-import {DeveloperPanel} from "@/ig-template";
+import {DeveloperPanel} from "@/igt-library";
 
 export default {
   name: "igt-developer-panel",

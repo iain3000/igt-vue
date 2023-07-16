@@ -1,1 +1,1 @@
-export {LootTables} from "@/ig-template/features/loot-tables/LootTables"
+export {LootTables} from "@/igt-library/features/loot-tables/LootTables"

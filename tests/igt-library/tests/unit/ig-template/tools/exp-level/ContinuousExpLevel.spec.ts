@@ -1,4 +1,4 @@
-import {ContinuousExpLevel} from "@/ig-template/tools/exp-level/ContinuousExpLevel";
+import {ContinuousExpLevel} from "@/igt-library/tools/exp-level/ContinuousExpLevel";
 
 describe('Continuous Exp Level', () => {
     function levelFunction(level: number) {

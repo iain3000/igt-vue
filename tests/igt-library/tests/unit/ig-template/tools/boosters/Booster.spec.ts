@@ -1,9 +1,9 @@
-import {CurrencyType} from "@/ig-template/features/wallet/CurrencyType";
+import {CurrencyType} from "@/igt-library/features/wallet/CurrencyType";
 import {IgtWalletStore as IgtWallet} from "@/stores/wallet/igt-wallet-store";
-import {Booster} from "@/ig-template/tools/boosters/Booster";
-import {BoosterTier} from "@/ig-template/tools/boosters/BoosterTier";
-import {Currency} from "@/ig-template/features/wallet/Currency";
-import {ImpossibleRequirement} from "@/ig-template/tools/requirements/ImpossibleRequirement";
+import {Booster} from "@/igt-library/tools/boosters/Booster";
+import {BoosterTier} from "@/igt-library/tools/boosters/BoosterTier";
+import {Currency} from "@/igt-library/features/wallet/Currency";
+import {ImpossibleRequirement} from "@/igt-library/tools/requirements/ImpossibleRequirement";
 import { createPinia, setActivePinia } from "pinia";
 
 describe('Booster', () => {

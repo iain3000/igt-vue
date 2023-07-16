@@ -1,4 +1,4 @@
-import {ItemId} from "@/ig-template/features/items/ItemId";
+import {ItemId} from "@/igt-library/features/items/ItemId";
 
 export interface InventorySlotSaveData {
     id: ItemId;

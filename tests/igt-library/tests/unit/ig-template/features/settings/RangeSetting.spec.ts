@@ -1,6 +1,6 @@
-import {SettingId} from "@/ig-template/features/settings/SettingId";
-import {RangeSetting} from "@/ig-template/features/settings/RangeSetting";
-import {CustomRequirement} from "@/ig-template/tools/requirements/CustomRequirement";
+import {SettingId} from "@/igt-library/features/settings/SettingId";
+import {RangeSetting} from "@/igt-library/features/settings/RangeSetting";
+import {CustomRequirement} from "@/igt-library/tools/requirements/CustomRequirement";
 
 
 describe('Range Setting', () => {

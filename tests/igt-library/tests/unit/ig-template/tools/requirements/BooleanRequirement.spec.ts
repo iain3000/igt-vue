@@ -1,4 +1,4 @@
-import {BooleanRequirement} from "@/ig-template/tools/requirements/BooleanRequirement";
+import {BooleanRequirement} from "@/igt-library/tools/requirements/BooleanRequirement";
 
 
 describe('Boolean Requirement', () => {

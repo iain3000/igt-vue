@@ -1,6 +1,6 @@
-import { AbstractConsumable, AbstractItem, EmptyItem, IgtFeature, InventorySaveData, InventorySlot, SaveData } from "@/ig-template";
+import { AbstractConsumable, AbstractItem, EmptyItem, IgtFeature, InventorySaveData, InventorySlot, SaveData } from "@/igt-library";
 import { useInventoryStore } from "./inventory-store";
-import { ItemId } from "@/ig-template/features/items/ItemId";
+import { ItemId } from "@/igt-library/features/items/ItemId";
 
 export class IgtInventoryStore extends IgtFeature {
     store = useInventoryStore();

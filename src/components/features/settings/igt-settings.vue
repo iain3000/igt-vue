@@ -6,7 +6,7 @@
 
 <script>
 import IgtFeature from "@/components/util/igt-feature.vue";
-import {IgtSettings} from "@/ig-template";
+import {IgtSettings} from "@/igt-library";
 import {App} from "@/App";
 
 export default {

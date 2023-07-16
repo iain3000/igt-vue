@@ -1,4 +1,4 @@
-import {Progress} from "@/ig-template/tools/requirements/Progress";
+import {Progress} from "@/igt-library/tools/requirements/Progress";
 
 /**
  * Abstract class to calculate basic level behaviour.

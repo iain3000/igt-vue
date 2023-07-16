@@ -1,7 +1,7 @@
-import {IntRange} from "@/ig-template/tools/probability/IntRange";
-import {Requirement} from "@/ig-template/tools/requirements/Requirement";
-import {NoRequirement} from "@/ig-template/tools/requirements/NoRequirement";
-import {IgtLoot} from "@/ig-template/tools/loot-tables/rewards/IgtLoot";
+import {IntRange} from "@/igt-library/tools/probability/IntRange";
+import {Requirement} from "@/igt-library/tools/requirements/Requirement";
+import {NoRequirement} from "@/igt-library/tools/requirements/NoRequirement";
+import {IgtLoot} from "@/igt-library/tools/loot-tables/rewards/IgtLoot";
 
 export abstract class IgtLootEntry {
     public weight: number;

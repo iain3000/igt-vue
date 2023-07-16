@@ -1,6 +1,6 @@
-import {Requirement} from "@/ig-template/tools/requirements/Requirement";
-import {KeyEventType} from "@/ig-template/tools/hotkeys/KeyEventType";
-import {NoRequirement} from "@/ig-template/tools/requirements/NoRequirement";
+import {Requirement} from "@/igt-library/tools/requirements/Requirement";
+import {KeyEventType} from "@/igt-library/tools/hotkeys/KeyEventType";
+import {NoRequirement} from "@/igt-library/tools/requirements/NoRequirement";
 
 export class KeyBind {
     keys: string | string[];

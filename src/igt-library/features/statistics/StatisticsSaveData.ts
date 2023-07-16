@@ -1,5 +1,5 @@
 import {StatisticsValue} from "./StatisticsValueType";
-import {StatisticId} from "@/ig-template/features/statistics/StatisticId";
+import {StatisticId} from "@/igt-library/features/statistics/StatisticId";
 
 export class StatisticsSaveData {
     list: Record<StatisticId, StatisticsValue>;

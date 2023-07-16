@@ -22,7 +22,7 @@
 
 <script>
 import IgtCurrency from "@/components/features/wallet/igt-currency.vue";
-import {Booster} from "@/ig-template";
+import {Booster} from "@/igt-library";
 
 export default {
   name: "igt-booster",

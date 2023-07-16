@@ -1,11 +1,11 @@
 /**
  * Generic upgrade class
  */
-import {Saveable} from "@/ig-template/tools/saving/Saveable";
-import {UpgradeType} from "@/ig-template/tools/upgrades/UpgradeType";
-import {UpgradeId} from "@/ig-template/tools/upgrades/UpgradeId";
-import {Currency} from "@/ig-template/features/wallet/Currency";
-import {UpgradeSaveData} from "@/ig-template/tools/upgrades/UpgradeSaveData";
+import {Saveable} from "@/igt-library/tools/saving/Saveable";
+import {UpgradeType} from "@/igt-library/tools/upgrades/UpgradeType";
+import {UpgradeId} from "@/igt-library/tools/upgrades/UpgradeId";
+import {Currency} from "@/igt-library/features/wallet/Currency";
+import {UpgradeSaveData} from "@/igt-library/tools/upgrades/UpgradeSaveData";
 import {IgtWalletStore as IgtWallet} from "@/stores/wallet/igt-wallet-store";
 
 export abstract class IgtAbstractUpgrade implements Saveable {

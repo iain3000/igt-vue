@@ -12,7 +12,7 @@
 
 <script>
 import IgtFeature from "@/components/util/igt-feature.vue";
-import {IgtRedeemableCodes} from "@/ig-template";
+import {IgtRedeemableCodes} from "@/igt-library";
 
 export default {
   name: "igt-redeemable-codes",

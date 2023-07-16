@@ -1,4 +1,4 @@
-import {AbstractField} from "@/ig-template/developer-panel/fields/AbstractField";
+import {AbstractField} from "@/igt-library/developer-panel/fields/AbstractField";
 
 export class ChoiceField extends AbstractField {
     options: [string, number][];

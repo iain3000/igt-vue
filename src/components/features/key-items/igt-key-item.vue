@@ -21,7 +21,7 @@
 </template>
 
 <script>
-import {KeyItem} from "@/ig-template";
+import {KeyItem} from "@/igt-library";
 
 import { getImageUrl } from "@/utils";
 

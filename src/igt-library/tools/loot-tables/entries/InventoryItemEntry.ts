@@ -1,9 +1,9 @@
-import {IgtLootEntry} from "@/ig-template/tools/loot-tables/entries/IgtLootEntry";
-import {InventoryItemLoot} from "@/ig-template/tools/loot-tables/rewards/InventoryItemLoot";
-import {Requirement} from "@/ig-template/tools/requirements/Requirement";
-import {NoRequirement} from "@/ig-template/tools/requirements/NoRequirement";
-import {AbstractItem} from "@/ig-template/features/items/AbstractItem";
-import {IntRange} from "@/ig-template/tools/probability/IntRange";
+import {IgtLootEntry} from "@/igt-library/tools/loot-tables/entries/IgtLootEntry";
+import {InventoryItemLoot} from "@/igt-library/tools/loot-tables/rewards/InventoryItemLoot";
+import {Requirement} from "@/igt-library/tools/requirements/Requirement";
+import {NoRequirement} from "@/igt-library/tools/requirements/NoRequirement";
+import {AbstractItem} from "@/igt-library/features/items/AbstractItem";
+import {IntRange} from "@/igt-library/tools/probability/IntRange";
 import { IgtInventoryStore as IgtInventory } from "@/stores/inventory/igt-inventory-store";
 
 export class InventoryItemEntry extends IgtLootEntry {

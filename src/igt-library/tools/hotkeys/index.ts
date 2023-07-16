@@ -1,5 +1,5 @@
-export {CustomConditionKeyBind} from "@/ig-template/tools/hotkeys/CustomConditionKeyBind";
-export {HotKeys} from "@/ig-template/tools/hotkeys/HotKeys";
-export {KeyBind} from "@/ig-template/tools/hotkeys/KeyBind";
-export {KeyEventType} from "@/ig-template/tools/hotkeys/KeyEventType";
-export type {KeyBindDescription} from "@/ig-template/tools/hotkeys/KeyBindDescription";
+export {CustomConditionKeyBind} from "@/igt-library/tools/hotkeys/CustomConditionKeyBind";
+export {HotKeys} from "@/igt-library/tools/hotkeys/HotKeys";
+export {KeyBind} from "@/igt-library/tools/hotkeys/KeyBind";
+export {KeyEventType} from "@/igt-library/tools/hotkeys/KeyEventType";
+export type {KeyBindDescription} from "@/igt-library/tools/hotkeys/KeyBindDescription";

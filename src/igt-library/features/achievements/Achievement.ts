@@ -1,6 +1,6 @@
-import {AchievementId} from "@/ig-template/features/achievements/AchievementId";
-import {Requirement} from "@/ig-template/tools/requirements/Requirement";
-import {Progress} from "@/ig-template/tools/requirements/Progress";
+import {AchievementId} from "@/igt-library/features/achievements/AchievementId";
+import {Requirement} from "@/igt-library/tools/requirements/Requirement";
+import {Progress} from "@/igt-library/tools/requirements/Progress";
 
 export class Achievement {
     public key: AchievementId;

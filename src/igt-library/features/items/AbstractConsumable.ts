@@ -1,6 +1,6 @@
-import {AbstractItem} from "@/ig-template/features/items/AbstractItem";
-import {ItemId} from "@/ig-template/features/items/ItemId";
-import {ItemType} from "@/ig-template/features/items/ItemType";
+import {AbstractItem} from "@/igt-library/features/items/AbstractItem";
+import {ItemId} from "@/igt-library/features/items/ItemId";
+import {ItemType} from "@/igt-library/features/items/ItemType";
 
 /**
  * Override with your custom consume function to implement all sorts of effects

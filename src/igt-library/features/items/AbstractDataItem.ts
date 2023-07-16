@@ -1,6 +1,6 @@
-import {ItemId} from "@/ig-template/features/items/ItemId";
-import {AbstractItem} from "@/ig-template/features/items/AbstractItem";
-import {ItemType} from "@/ig-template/features/items/ItemType";
+import {ItemId} from "@/igt-library/features/items/ItemId";
+import {AbstractItem} from "@/igt-library/features/items/AbstractItem";
+import {ItemType} from "@/igt-library/features/items/ItemType";
 
 /**
  * This item can store custom data that is also saved.

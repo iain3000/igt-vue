@@ -1,10 +1,10 @@
-import {IgtLootEntry} from "@/ig-template/tools/loot-tables/entries/IgtLootEntry";
-import {Requirement} from "@/ig-template/tools/requirements/Requirement";
-import {NoRequirement} from "@/ig-template/tools/requirements/NoRequirement";
-import {IntRange} from "@/ig-template/tools/probability/IntRange";
-import {IgtKeyItems} from "@/ig-template/features/key-items/IgtKeyItems";
-import {KeyItemLoot} from "@/ig-template/tools/loot-tables/rewards/KeyItemLoot";
-import {KeyItem} from "@/ig-template/features/key-items/KeyItem";
+import {IgtLootEntry} from "@/igt-library/tools/loot-tables/entries/IgtLootEntry";
+import {Requirement} from "@/igt-library/tools/requirements/Requirement";
+import {NoRequirement} from "@/igt-library/tools/requirements/NoRequirement";
+import {IntRange} from "@/igt-library/tools/probability/IntRange";
+import {IgtKeyItems} from "@/igt-library/features/key-items/IgtKeyItems";
+import {KeyItemLoot} from "@/igt-library/tools/loot-tables/rewards/KeyItemLoot";
+import {KeyItem} from "@/igt-library/features/key-items/KeyItem";
 
 export class KeyItemEntry extends IgtLootEntry {
     _keyItems: IgtKeyItems;

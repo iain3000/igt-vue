@@ -1,5 +1,5 @@
-import {Outcome} from "@/ig-template/tools/probability/Outcome";
-import {Random} from "@/ig-template/tools/probability/Random";
+import {Outcome} from "@/igt-library/tools/probability/Outcome";
+import {Random} from "@/igt-library/tools/probability/Random";
 
 export class WeightedDistribution<T> {
     outcomes: Outcome<T>[];

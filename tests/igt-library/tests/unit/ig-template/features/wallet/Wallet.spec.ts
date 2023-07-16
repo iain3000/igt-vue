@@ -1,7 +1,7 @@
 import {IgtWalletStore as IgtWallet} from "@/stores/wallet/igt-wallet-store";
-import {CurrencyType} from "@/ig-template/features/wallet/CurrencyType";
-import {Currency} from "@/ig-template/features/wallet/Currency";
-import {WalletSaveData} from "@/ig-template/features/wallet/WalletSaveData";
+import {CurrencyType} from "@/igt-library/features/wallet/CurrencyType";
+import {Currency} from "@/igt-library/features/wallet/Currency";
+import {WalletSaveData} from "@/igt-library/features/wallet/WalletSaveData";
 
 import { createPinia, setActivePinia } from "pinia";
 

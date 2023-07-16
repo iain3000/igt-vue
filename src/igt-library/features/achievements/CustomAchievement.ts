@@ -1,6 +1,6 @@
-import {Achievement} from "@/ig-template/features/achievements/Achievement";
-import {AchievementId} from "@/ig-template/features/achievements/AchievementId";
-import {ManualRequirement} from "@/ig-template/tools/requirements/ManualRequirement";
+import {Achievement} from "@/igt-library/features/achievements/Achievement";
+import {AchievementId} from "@/igt-library/features/achievements/AchievementId";
+import {ManualRequirement} from "@/igt-library/tools/requirements/ManualRequirement";
 
 export class CustomAchievement extends Achievement {
 

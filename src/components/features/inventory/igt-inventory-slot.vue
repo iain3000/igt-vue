@@ -17,7 +17,7 @@
 
 <script>
 
-import {InventorySlot} from "@/ig-template";
+import {InventorySlot} from "@/igt-library";
 
 export default {
   name: "igt-inventory-slot",

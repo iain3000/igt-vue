@@ -1,5 +1,5 @@
-import {SaveData} from "@/ig-template/tools/saving/SaveData";
-import {AchievementId} from "@/ig-template/features/achievements/AchievementId";
+import {SaveData} from "@/igt-library/tools/saving/SaveData";
+import {AchievementId} from "@/igt-library/features/achievements/AchievementId";
 
 /**
  * Unlocked achievements are saved as a list of keys

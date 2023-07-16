@@ -1,6 +1,6 @@
-import {KeyItemId} from "@/ig-template/features/key-items/KeyItemId";
-import {NoRequirement} from "@/ig-template/tools/requirements/NoRequirement";
-import {Requirement} from "@/ig-template/tools/requirements/Requirement";
+import {KeyItemId} from "@/igt-library/features/key-items/KeyItemId";
+import {NoRequirement} from "@/igt-library/tools/requirements/NoRequirement";
+import {Requirement} from "@/igt-library/tools/requirements/Requirement";
 
 export class KeyItem {
     id: KeyItemId;

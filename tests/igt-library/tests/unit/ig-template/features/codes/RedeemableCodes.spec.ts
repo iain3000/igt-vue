@@ -1,6 +1,6 @@
-import {IgtRedeemableCodes} from "@/ig-template/features/codes/IgtRedeemableCodes";
-import {RedeemableCode} from "@/ig-template/features/codes/RedeemableCode";
-import {RedeemableCodeId} from "@/ig-template/features/codes/RedeemableCodeId";
+import {IgtRedeemableCodes} from "@/igt-library/features/codes/IgtRedeemableCodes";
+import {RedeemableCode} from "@/igt-library/features/codes/RedeemableCode";
+import {RedeemableCodeId} from "@/igt-library/features/codes/RedeemableCodeId";
 
 
 describe('Redeemable Codes', () => {

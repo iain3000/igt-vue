@@ -1,13 +1,13 @@
-import {IgtGame} from "@/ig-template/IgtGame";
+import {IgtGame} from "@/igt-library/IgtGame";
 import {IgtWalletStore as IgtWallet} from "@/stores/wallet/igt-wallet-store";
-import {IgtSettings} from "@/ig-template/features/settings/IgtSettings";
-import {IgtRedeemableCodes} from "@/ig-template/features/codes/IgtRedeemableCodes";
-import {IgtKeyItems} from "@/ig-template/features/key-items/IgtKeyItems";
-import {IgtSpecialEvents} from "@/ig-template/features/special-events/IgtSpecialEvents";
-import {IgtStatistics} from "@/ig-template/features/statistics/IgtStatistics";
+import {IgtSettings} from "@/igt-library/features/settings/IgtSettings";
+import {IgtRedeemableCodes} from "@/igt-library/features/codes/IgtRedeemableCodes";
+import {IgtKeyItems} from "@/igt-library/features/key-items/IgtKeyItems";
+import {IgtSpecialEvents} from "@/igt-library/features/special-events/IgtSpecialEvents";
+import {IgtStatistics} from "@/igt-library/features/statistics/IgtStatistics";
 import { IgtAchievementStore as IgtAchievements } from "@/stores/achievements/igt-achievement-store";
 
-import {IgtFeatures} from "@/ig-template/IgtFeatures";
+import {IgtFeatures} from "@/igt-library/IgtFeatures";
 import { createPinia, setActivePinia } from "pinia";
 
 class DummyGame extends IgtGame {

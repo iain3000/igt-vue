@@ -1,11 +1,11 @@
-import {DiscreteUpgrade} from "@/ig-template/tools/upgrades/DiscreteUpgrade";
-import {UpgradeId} from "@/ig-template/tools/upgrades/UpgradeId";
-import {UpgradeType} from "@/ig-template/tools/upgrades/UpgradeType";
-import {CurrencyBuilder} from "@/ig-template/features/wallet/CurrencyBuilder";
-import {ArrayBuilder} from "@/ig-template/util/ArrayBuilder";
-import {CurrencyType} from "@/ig-template/features/wallet/CurrencyType";
+import {DiscreteUpgrade} from "@/igt-library/tools/upgrades/DiscreteUpgrade";
+import {UpgradeId} from "@/igt-library/tools/upgrades/UpgradeId";
+import {UpgradeType} from "@/igt-library/tools/upgrades/UpgradeType";
+import {CurrencyBuilder} from "@/igt-library/features/wallet/CurrencyBuilder";
+import {ArrayBuilder} from "@/igt-library/util/ArrayBuilder";
+import {CurrencyType} from "@/igt-library/features/wallet/CurrencyType";
 import {IgtWalletStore as IgtWallet} from "@/stores/wallet/igt-wallet-store";
-import {Currency} from "@/ig-template/features/wallet/Currency";
+import {Currency} from "@/igt-library/features/wallet/Currency";
 import { createPinia, setActivePinia } from "pinia";
 
 

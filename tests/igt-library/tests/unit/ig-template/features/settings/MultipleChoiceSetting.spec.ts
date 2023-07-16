@@ -1,7 +1,7 @@
-import {MultipleChoiceSetting} from "@/ig-template/features/settings/MultipleChoiceSetting";
-import {SettingId} from "@/ig-template/features/settings/SettingId";
-import {SettingOption} from "@/ig-template/features/settings/SettingOption";
-import {CustomRequirement} from "@/ig-template/tools/requirements/CustomRequirement";
+import {MultipleChoiceSetting} from "@/igt-library/features/settings/MultipleChoiceSetting";
+import {SettingId} from "@/igt-library/features/settings/SettingId";
+import {SettingOption} from "@/igt-library/features/settings/SettingOption";
+import {CustomRequirement} from "@/igt-library/tools/requirements/CustomRequirement";
 
 
 describe('Multiple Choice Setting', () => {

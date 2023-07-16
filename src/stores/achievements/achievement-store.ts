@@ -1,5 +1,5 @@
-import { Achievement } from "@/ig-template";
-import { AchievementId } from "@/ig-template/features/achievements/AchievementId";
+import { Achievement } from "@/igt-library";
+import { AchievementId } from "@/igt-library/features/achievements/AchievementId";
 import { defineStore } from "pinia";
 
 export const useAchievementStore = defineStore('achievement', {

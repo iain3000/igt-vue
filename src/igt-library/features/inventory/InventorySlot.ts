@@ -1,4 +1,4 @@
-import {AbstractItem} from "@/ig-template/features/items/AbstractItem";
+import {AbstractItem} from "@/igt-library/features/items/AbstractItem";
 
 export class InventorySlot {
     item: AbstractItem;

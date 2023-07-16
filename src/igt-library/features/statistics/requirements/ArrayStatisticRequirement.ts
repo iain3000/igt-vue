@@ -1,5 +1,5 @@
-import {Requirement} from "@/ig-template/tools/requirements/Requirement";
-import {ArrayStatistic} from "@/ig-template/features/statistics/ArrayStatistic";
+import {Requirement} from "@/igt-library/tools/requirements/Requirement";
+import {ArrayStatistic} from "@/igt-library/features/statistics/ArrayStatistic";
 
 export class ArrayStatisticRequirement extends Requirement {
     statistic: ArrayStatistic;

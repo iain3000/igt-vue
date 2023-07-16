@@ -1,5 +1,5 @@
-import {SettingId} from "@/ig-template/features/settings/SettingId";
-import {BooleanSetting} from "@/ig-template/features/settings/BooleanSetting";
+import {SettingId} from "@/igt-library/features/settings/SettingId";
+import {BooleanSetting} from "@/igt-library/features/settings/BooleanSetting";
 
 
 describe('Boolean Setting', () => {

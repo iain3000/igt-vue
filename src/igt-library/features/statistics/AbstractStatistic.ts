@@ -1,5 +1,5 @@
-import {StatisticId} from "@/ig-template/features/statistics/StatisticId";
-import {StatisticsValue} from "@/ig-template/features/statistics/StatisticsValueType";
+import {StatisticId} from "@/igt-library/features/statistics/StatisticId";
+import {StatisticsValue} from "@/igt-library/features/statistics/StatisticsValueType";
 
 export abstract class AbstractStatistic {
     id: StatisticId;

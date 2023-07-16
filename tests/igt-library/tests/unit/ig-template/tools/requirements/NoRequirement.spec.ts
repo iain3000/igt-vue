@@ -1,4 +1,4 @@
-import {NoRequirement} from "@/ig-template/tools/requirements/NoRequirement";
+import {NoRequirement} from "@/igt-library/tools/requirements/NoRequirement";
 
 describe('No Requirement', () => {
 

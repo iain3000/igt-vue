@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import {DisplayField} from "@/ig-template";
+import {DisplayField} from "@/igt-library";
 
 export default {
   name: "igt-display-field",

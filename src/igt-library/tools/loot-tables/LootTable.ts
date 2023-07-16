@@ -1,7 +1,7 @@
-import {LootTableId} from "@/ig-template/tools/loot-tables/LootTableId";
-import {IgtLootEntry} from "@/ig-template/tools/loot-tables/entries/IgtLootEntry";
-import {Random} from "@/ig-template/tools/probability/Random";
-import {IgtLoot} from "@/ig-template/tools/loot-tables/rewards/IgtLoot";
+import {LootTableId} from "@/igt-library/tools/loot-tables/LootTableId";
+import {IgtLootEntry} from "@/igt-library/tools/loot-tables/entries/IgtLootEntry";
+import {Random} from "@/igt-library/tools/probability/Random";
+import {IgtLoot} from "@/igt-library/tools/loot-tables/rewards/IgtLoot";
 
 export class LootTable {
     id: LootTableId;

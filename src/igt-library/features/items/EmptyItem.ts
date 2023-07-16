@@ -1,4 +1,4 @@
-import {AbstractItem} from "@/ig-template/features/items/AbstractItem";
+import {AbstractItem} from "@/igt-library/features/items/AbstractItem";
 
 /**
  * Empty item that is used to fill up empty inventory slots

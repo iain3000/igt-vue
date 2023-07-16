@@ -1,4 +1,4 @@
-import {IgtGame} from "@/ig-template";
+import {IgtGame} from "@/igt-library";
 import {MyFeatures} from "@/my-game/MyFeatures";
 
 export class MyGame extends IgtGame {

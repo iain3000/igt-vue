@@ -1,6 +1,6 @@
-import {KeyBind} from "@/ig-template/tools/hotkeys/KeyBind";
-import {BooleanRequirement} from "@/ig-template/tools/requirements/BooleanRequirement";
-import {KeyEventType} from "@/ig-template/tools/hotkeys/KeyEventType";
+import {KeyBind} from "@/igt-library/tools/hotkeys/KeyBind";
+import {BooleanRequirement} from "@/igt-library/tools/requirements/BooleanRequirement";
+import {KeyEventType} from "@/igt-library/tools/hotkeys/KeyEventType";
 
 
 /**

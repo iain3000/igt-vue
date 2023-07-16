@@ -1,5 +1,5 @@
-import {CustomRequirement} from "@/ig-template/tools/requirements/CustomRequirement";
-import {MultiRequirement} from "@/ig-template/tools/requirements/MultiRequirement";
+import {CustomRequirement} from "@/igt-library/tools/requirements/CustomRequirement";
+import {MultiRequirement} from "@/igt-library/tools/requirements/MultiRequirement";
 
 
 describe('Multi Requirement', () => {

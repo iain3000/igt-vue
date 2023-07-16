@@ -1,5 +1,5 @@
-import {CustomRequirement} from "@/ig-template/tools/requirements/CustomRequirement";
-import {OneOfRequirement} from "@/ig-template/tools/requirements/OneOfRequirement";
+import {CustomRequirement} from "@/igt-library/tools/requirements/CustomRequirement";
+import {OneOfRequirement} from "@/igt-library/tools/requirements/OneOfRequirement";
 
 
 describe('One Of Requirement', () => {

@@ -1,5 +1,5 @@
-import {Currency} from "@/ig-template/features/wallet/Currency";
-import {CurrencyType} from "@/ig-template/features/wallet/CurrencyType";
+import {Currency} from "@/igt-library/features/wallet/Currency";
+import {CurrencyType} from "@/igt-library/features/wallet/CurrencyType";
 
 
 describe('Currency', () => {

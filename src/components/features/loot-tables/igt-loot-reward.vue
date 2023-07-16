@@ -12,7 +12,7 @@
 <script>
 import IgtCurrency from "@/components/features/wallet/igt-currency.vue";
 import IgtKeyItemSmall from "@/components/features/key-items/igt-key-item-small.vue";
-import {CurrencyLoot, IgtLoot, InventoryItemLoot, KeyItemLoot} from "@/ig-template";
+import {CurrencyLoot, IgtLoot, InventoryItemLoot, KeyItemLoot} from "@/igt-library";
 
 export default {
   name: "igt-loot-reward",

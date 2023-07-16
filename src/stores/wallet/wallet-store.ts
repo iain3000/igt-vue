@@ -1,7 +1,7 @@
 import { defineStore } from "pinia";
 
-import { Currency } from "@/ig-template";
-import { CurrencyType } from "@/ig-template/features/wallet/CurrencyType";
+import { Currency } from "@/igt-library";
+import { CurrencyType } from "@/igt-library/features/wallet/CurrencyType";
 
 export const useWalletStore = defineStore('wallet', {
     state: () => ({

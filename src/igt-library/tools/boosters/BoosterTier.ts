@@ -1,6 +1,6 @@
-import {Currency} from "@/ig-template/features/wallet/Currency";
-import {Requirement} from "@/ig-template/tools/requirements/Requirement";
-import {NoRequirement} from "@/ig-template/tools/requirements/NoRequirement";
+import {Currency} from "@/igt-library/features/wallet/Currency";
+import {Requirement} from "@/igt-library/tools/requirements/Requirement";
+import {NoRequirement} from "@/igt-library/tools/requirements/NoRequirement";
 
 export class BoosterTier {
     displayName: string;

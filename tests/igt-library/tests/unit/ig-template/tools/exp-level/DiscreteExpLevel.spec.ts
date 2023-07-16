@@ -1,4 +1,4 @@
-import {DiscreteExpLevel} from "@/ig-template/tools/exp-level/DiscreteExpLevel";
+import {DiscreteExpLevel} from "@/igt-library/tools/exp-level/DiscreteExpLevel";
 
 describe('Discrete Exp Level', () => {
 

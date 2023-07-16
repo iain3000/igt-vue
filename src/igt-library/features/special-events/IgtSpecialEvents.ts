@@ -1,7 +1,7 @@
-import {IgtFeature} from "@/ig-template/features/IgtFeature";
-import {SaveData} from "@/ig-template/tools/saving/SaveData";
-import {WeeklySpecialEvent} from "@/ig-template/features/special-events/WeeklySpecialEvent";
-import {AbstractSpecialEvent} from "@/ig-template/features/special-events/AbstractSpecialEvent";
+import {IgtFeature} from "@/igt-library/features/IgtFeature";
+import {SaveData} from "@/igt-library/tools/saving/SaveData";
+import {WeeklySpecialEvent} from "@/igt-library/features/special-events/WeeklySpecialEvent";
+import {AbstractSpecialEvent} from "@/igt-library/features/special-events/AbstractSpecialEvent";
 
 export class IgtSpecialEvents extends IgtFeature {
 

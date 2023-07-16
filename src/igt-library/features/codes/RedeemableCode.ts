@@ -1,4 +1,4 @@
-import {RedeemableCodeId} from "@/ig-template/features/codes/RedeemableCodeId";
+import {RedeemableCodeId} from "@/igt-library/features/codes/RedeemableCodeId";
 
 export class RedeemableCode {
     id: RedeemableCodeId;

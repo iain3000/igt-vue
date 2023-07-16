@@ -14,7 +14,7 @@
 </template>
 
 <script>
-import {Currency} from "@/ig-template";
+import {Currency} from "@/igt-library";
 
 export default {
   name: "igt-currency",

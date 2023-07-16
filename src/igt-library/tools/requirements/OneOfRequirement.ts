@@ -1,4 +1,4 @@
-import {Requirement} from "@/ig-template/tools/requirements/Requirement";
+import {Requirement} from "@/igt-library/tools/requirements/Requirement";
 
 /**
  * Only 1 requirement in the provided list need to be completed for this requirement to be completed.

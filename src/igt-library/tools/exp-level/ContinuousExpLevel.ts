@@ -1,4 +1,4 @@
-import {IgtExpLevel} from "@/ig-template/tools/exp-level/IgtExpLevel";
+import {IgtExpLevel} from "@/igt-library/tools/exp-level/IgtExpLevel";
 
 /**
  * Implementation of IgtExpLevel that takes a function to calculate exp needed for each level.

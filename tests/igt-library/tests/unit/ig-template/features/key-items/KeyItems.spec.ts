@@ -1,7 +1,7 @@
-import {ImpossibleRequirement} from "@/ig-template/tools/requirements/ImpossibleRequirement";
-import {KeyItemId} from "@/ig-template/features/key-items/KeyItemId";
-import {IgtKeyItems} from "@/ig-template/features/key-items/IgtKeyItems";
-import {KeyItem} from "@/ig-template/features/key-items/KeyItem";
+import {ImpossibleRequirement} from "@/igt-library/tools/requirements/ImpossibleRequirement";
+import {KeyItemId} from "@/igt-library/features/key-items/KeyItemId";
+import {IgtKeyItems} from "@/igt-library/features/key-items/IgtKeyItems";
+import {KeyItem} from "@/igt-library/features/key-items/KeyItem";
 
 
 describe('Key Items', () => {

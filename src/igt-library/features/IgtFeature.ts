@@ -1,9 +1,9 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
-import {Saveable} from "@/ig-template/tools/saving/Saveable";
-import {SaveData} from "@/ig-template/tools/saving/SaveData";
-import {CurrencyType} from "@/ig-template/features/wallet/CurrencyType";
-import {IgtFeatures} from "@/ig-template/IgtFeatures";
-import {AbstractField} from "@/ig-template/developer-panel/fields/AbstractField";
+import {Saveable} from "@/igt-library/tools/saving/Saveable";
+import {SaveData} from "@/igt-library/tools/saving/SaveData";
+import {CurrencyType} from "@/igt-library/features/wallet/CurrencyType";
+import {IgtFeatures} from "@/igt-library/IgtFeatures";
+import {AbstractField} from "@/igt-library/developer-panel/fields/AbstractField";
 
 /**
  * An abstract class that all features should extend from.

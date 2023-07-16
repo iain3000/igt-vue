@@ -1,8 +1,8 @@
-import {Currency} from "@/ig-template/features/wallet/Currency";
-import {IgtAbstractUpgrade} from "@/ig-template/tools/upgrades/IgtAbstractUpgrade";
-import {UpgradeType} from "@/ig-template/tools/upgrades/UpgradeType";
-import {UpgradeId} from "@/ig-template/tools/upgrades/UpgradeId";
-import {CurrencyType} from "@/ig-template/features/wallet/CurrencyType";
+import {Currency} from "@/igt-library/features/wallet/Currency";
+import {IgtAbstractUpgrade} from "@/igt-library/tools/upgrades/IgtAbstractUpgrade";
+import {UpgradeType} from "@/igt-library/tools/upgrades/UpgradeType";
+import {UpgradeId} from "@/igt-library/tools/upgrades/UpgradeId";
+import {CurrencyType} from "@/igt-library/features/wallet/CurrencyType";
 
 export class DiscreteUpgrade extends IgtAbstractUpgrade {
 

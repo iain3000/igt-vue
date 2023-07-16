@@ -1,7 +1,7 @@
-import {DiscreteUpgrade} from "@/ig-template/tools/upgrades/DiscreteUpgrade";
-import {UpgradeType} from "@/ig-template/tools/upgrades/UpgradeType";
-import {UpgradeId} from "@/ig-template/tools/upgrades/UpgradeId";
-import {Currency} from "@/ig-template/features/wallet/Currency";
+import {DiscreteUpgrade} from "@/igt-library/tools/upgrades/DiscreteUpgrade";
+import {UpgradeType} from "@/igt-library/tools/upgrades/UpgradeType";
+import {UpgradeId} from "@/igt-library/tools/upgrades/UpgradeId";
+import {Currency} from "@/igt-library/features/wallet/Currency";
 
 /**
  * An upgrade with a max level of 1

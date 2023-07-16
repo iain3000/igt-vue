@@ -1,1 +1,1 @@
-export {AddWallet} from "@/ig-template/mixins/AddWallet";
+export {AddWallet} from "@/igt-library/mixins/AddWallet";

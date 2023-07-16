@@ -1,9 +1,9 @@
-import {IgtFeature} from "@/ig-template/features/IgtFeature";
-import {SaveData} from "@/ig-template/tools/saving/SaveData";
-import {IgtFeatures} from "@/ig-template/IgtFeatures";
-import {EmptyItem} from "@/ig-template/features/items/EmptyItem";
-import {ItemId} from "@/ig-template/features/items/ItemId";
-import {AbstractItem} from "@/ig-template/features/items/AbstractItem";
+import {IgtFeature} from "@/igt-library/features/IgtFeature";
+import {SaveData} from "@/igt-library/tools/saving/SaveData";
+import {IgtFeatures} from "@/igt-library/IgtFeatures";
+import {EmptyItem} from "@/igt-library/features/items/EmptyItem";
+import {ItemId} from "@/igt-library/features/items/ItemId";
+import {AbstractItem} from "@/igt-library/features/items/AbstractItem";
 
 export abstract class IgtItemList extends IgtFeature {
 

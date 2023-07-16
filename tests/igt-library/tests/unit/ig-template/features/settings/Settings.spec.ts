@@ -1,9 +1,9 @@
-import {IgtSettings} from "@/ig-template/features/settings/IgtSettings";
-import {MultipleChoiceSetting} from "@/ig-template/features/settings/MultipleChoiceSetting";
-import {SettingId} from "@/ig-template/features/settings/SettingId";
-import {SettingOption} from "@/ig-template/features/settings/SettingOption";
-import {BooleanSetting} from "@/ig-template/features/settings/BooleanSetting";
-import {SettingsSaveData} from "@/ig-template/features/settings/SettingsSaveData";
+import {IgtSettings} from "@/igt-library/features/settings/IgtSettings";
+import {MultipleChoiceSetting} from "@/igt-library/features/settings/MultipleChoiceSetting";
+import {SettingId} from "@/igt-library/features/settings/SettingId";
+import {SettingOption} from "@/igt-library/features/settings/SettingOption";
+import {BooleanSetting} from "@/igt-library/features/settings/BooleanSetting";
+import {SettingsSaveData} from "@/igt-library/features/settings/SettingsSaveData";
 
 
 describe('Settings', () => {

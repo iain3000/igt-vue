@@ -1,8 +1,8 @@
-import {SpecialEventId} from "@/ig-template/features/special-events/SpecialEventId";
-import {Requirement} from "@/ig-template/tools/requirements/Requirement";
-import {NoRequirement} from "@/ig-template/tools/requirements/NoRequirement";
-import {SpecialEventDateState} from "@/ig-template/features/special-events/SpecialEventDateState";
-import {AbstractSpecialEvent} from "@/ig-template/features/special-events/AbstractSpecialEvent";
+import {SpecialEventId} from "@/igt-library/features/special-events/SpecialEventId";
+import {Requirement} from "@/igt-library/tools/requirements/Requirement";
+import {NoRequirement} from "@/igt-library/tools/requirements/NoRequirement";
+import {SpecialEventDateState} from "@/igt-library/features/special-events/SpecialEventDateState";
+import {AbstractSpecialEvent} from "@/igt-library/features/special-events/AbstractSpecialEvent";
 
 /**
  * A special event with a set start and end date.

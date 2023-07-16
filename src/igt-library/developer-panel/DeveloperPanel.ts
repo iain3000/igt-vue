@@ -1,4 +1,4 @@
-import {DeveloperPanelTab} from "@/ig-template/developer-panel/DeveloperPanelTab";
+import {DeveloperPanelTab} from "@/igt-library/developer-panel/DeveloperPanelTab";
 
 export class DeveloperPanel {
     tabs: DeveloperPanelTab[];

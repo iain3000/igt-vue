@@ -1,6 +1,6 @@
-import {Requirement} from "@/ig-template/tools/requirements/Requirement";
-import {NoRequirement} from "@/ig-template/tools/requirements/NoRequirement";
-import {SettingsValue} from "@/ig-template/features/settings/SettingsValueType";
+import {Requirement} from "@/igt-library/tools/requirements/Requirement";
+import {NoRequirement} from "@/igt-library/tools/requirements/NoRequirement";
+import {SettingsValue} from "@/igt-library/features/settings/SettingsValueType";
 
 export class SettingOption {
     displayText: string;

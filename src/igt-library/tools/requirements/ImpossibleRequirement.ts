@@ -1,4 +1,4 @@
-import {Requirement} from "@/ig-template/tools/requirements/Requirement";
+import {Requirement} from "@/igt-library/tools/requirements/Requirement";
 
 /**
  * A requirement that is never completed

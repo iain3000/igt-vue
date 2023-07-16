@@ -1,10 +1,10 @@
-import {SaveData} from "@/ig-template/tools/saving";
-import {Currency} from "@/ig-template/features/wallet";
+import {SaveData} from "@/igt-library/tools/saving";
+import {Currency} from "@/igt-library/features/wallet";
 import {IgtWalletStore as IgtWallet} from "@/stores/wallet/igt-wallet-store";
-import {IgtFeatures} from "@/ig-template/IgtFeatures";
-import {DiscreteUpgrade} from "@/ig-template/tools/upgrades";
-import {AddWallet} from "@/ig-template/mixins/AddWallet";
-import {IgtFeature} from "@/ig-template";
+import {IgtFeatures} from "@/igt-library/IgtFeatures";
+import {DiscreteUpgrade} from "@/igt-library/tools/upgrades";
+import {AddWallet} from "@/igt-library/mixins/AddWallet";
+import {IgtFeature} from "@/igt-library";
 import { createPinia, setActivePinia } from "pinia";
 
 class TestFeature extends AddWallet(IgtFeature) {

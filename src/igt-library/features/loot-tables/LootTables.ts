@@ -1,7 +1,7 @@
-import {IgtFeature} from "@/ig-template/features/IgtFeature";
-import {SaveData} from "@/ig-template/tools/saving/SaveData";
-import {LootTable} from "@/ig-template/tools/loot-tables/LootTable";
-import {LootTableId} from "@/ig-template/tools/loot-tables/LootTableId";
+import {IgtFeature} from "@/igt-library/features/IgtFeature";
+import {SaveData} from "@/igt-library/tools/saving/SaveData";
+import {LootTable} from "@/igt-library/tools/loot-tables/LootTable";
+import {LootTableId} from "@/igt-library/tools/loot-tables/LootTableId";
 
 export abstract class LootTables extends IgtFeature {
 

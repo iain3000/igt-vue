@@ -1,7 +1,7 @@
-import {Setting} from "@/ig-template/features/settings/Setting";
-import {Requirement} from "@/ig-template/tools/requirements/Requirement";
-import {SettingId} from "@/ig-template/features/settings/SettingId";
-import {SettingOption} from "@/ig-template/features/settings/SettingOption";
+import {Setting} from "@/igt-library/features/settings/Setting";
+import {Requirement} from "@/igt-library/tools/requirements/Requirement";
+import {SettingId} from "@/igt-library/features/settings/SettingId";
+import {SettingOption} from "@/igt-library/features/settings/SettingOption";
 
 /**
  * A setting which allows any floating point value between min and max (both inclusive).

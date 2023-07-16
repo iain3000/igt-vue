@@ -1,6 +1,6 @@
-import { CurrencyType } from "@/ig-template/features/wallet/CurrencyType";
+import { CurrencyType } from "@/igt-library/features/wallet/CurrencyType";
 import { useWalletStore } from "./wallet-store";
-import { Currency, IgtFeature, WalletSaveData } from "@/ig-template";
+import { Currency, IgtFeature, WalletSaveData } from "@/igt-library";
 
 export class IgtWalletStore extends IgtFeature {
     payMultipleIfPossible(currencies: Currency[]): boolean {

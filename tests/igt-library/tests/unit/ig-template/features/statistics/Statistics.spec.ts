@@ -1,8 +1,8 @@
-import {NumberStatistic} from "@/ig-template/features/statistics/NumberStatistic";
-import {StatisticId} from "@/ig-template/features/statistics/StatisticId";
-import {IgtStatistics} from "@/ig-template/features/statistics/IgtStatistics";
-import {ArrayStatistic} from "@/ig-template/features/statistics/ArrayStatistic";
-import { DictStatistic } from "@/ig-template/features/statistics/DictStatistic";
+import {NumberStatistic} from "@/igt-library/features/statistics/NumberStatistic";
+import {StatisticId} from "@/igt-library/features/statistics/StatisticId";
+import {IgtStatistics} from "@/igt-library/features/statistics/IgtStatistics";
+import {ArrayStatistic} from "@/igt-library/features/statistics/ArrayStatistic";
+import { DictStatistic } from "@/igt-library/features/statistics/DictStatistic";
 
 
 describe('Number Statistic', () => {

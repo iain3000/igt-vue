@@ -1,7 +1,7 @@
-import {IgtFeature} from "@/ig-template/features/IgtFeature";
-import {KeyItem} from "@/ig-template/features/key-items/KeyItem";
-import {KeyItemId} from "@/ig-template/features/key-items/KeyItemId";
-import {KeyItemSaveData} from "@/ig-template/features/key-items/KeyItemSaveData";
+import {IgtFeature} from "@/igt-library/features/IgtFeature";
+import {KeyItem} from "@/igt-library/features/key-items/KeyItem";
+import {KeyItemId} from "@/igt-library/features/key-items/KeyItemId";
+import {KeyItemSaveData} from "@/igt-library/features/key-items/KeyItemSaveData";
 
 export class IgtKeyItems extends IgtFeature {
     list: Record<KeyItemId, KeyItem>

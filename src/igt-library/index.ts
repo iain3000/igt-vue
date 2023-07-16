@@ -1,7 +1,7 @@
 // Game
-import type {IgtFeatures} from '@/ig-template/IgtFeatures';
-import {IgtGame} from '@/ig-template/IgtGame';
-import {GameState} from '@/ig-template/GameState';
+import type {IgtFeatures} from '@/igt-library/IgtFeatures';
+import {IgtGame} from '@/igt-library/IgtGame';
+import {GameState} from '@/igt-library/GameState';
 
 export {
     IgtGame,
@@ -10,44 +10,44 @@ export {
 }
 
 // Developer panel
-export * from '@/ig-template/developer-panel';
+export * from '@/igt-library/developer-panel';
 
 // Features
-import {IgtFeature} from '@/ig-template/features/IgtFeature';
-import {IgtUpgradesFeature} from '@/ig-template/features/IgtUpgradesFeature';
+import {IgtFeature} from '@/igt-library/features/IgtFeature';
+import {IgtUpgradesFeature} from '@/igt-library/features/IgtUpgradesFeature';
 
 export {
     IgtFeature,
     IgtUpgradesFeature,
 }
 
-export * from '@/ig-template/features/achievements';
-export * from '@/ig-template/features/codes';
-export * from '@/ig-template/features/inventory';
-export * from '@/ig-template/features/items';
-export * from '@/ig-template/features/key-items';
-export * from '@/ig-template/features/loot-tables';
-export * from '@/ig-template/features/settings';
-export * from '@/ig-template/features/special-events';
-export * from '@/ig-template/features/statistics';
-export * from '@/ig-template/features/wallet';
+export * from '@/igt-library/features/achievements';
+export * from '@/igt-library/features/codes';
+export * from '@/igt-library/features/inventory';
+export * from '@/igt-library/features/items';
+export * from '@/igt-library/features/key-items';
+export * from '@/igt-library/features/loot-tables';
+export * from '@/igt-library/features/settings';
+export * from '@/igt-library/features/special-events';
+export * from '@/igt-library/features/statistics';
+export * from '@/igt-library/features/wallet';
 
 // Tools
-export * from '@/ig-template/tools/actions';
-export * from '@/ig-template/tools/boosters';
-export * from '@/ig-template/tools/exp-level';
-export * from '@/ig-template/tools/hotkeys';
-export * from '@/ig-template/tools/loot-tables';
-export * from '@/ig-template/tools/probability';
-export * from '@/ig-template/tools/requirements';
-export * from '@/ig-template/tools/saving';
-export * from '@/ig-template/tools/upgrades';
+export * from '@/igt-library/tools/actions';
+export * from '@/igt-library/tools/boosters';
+export * from '@/igt-library/tools/exp-level';
+export * from '@/igt-library/tools/hotkeys';
+export * from '@/igt-library/tools/loot-tables';
+export * from '@/igt-library/tools/probability';
+export * from '@/igt-library/tools/requirements';
+export * from '@/igt-library/tools/saving';
+export * from '@/igt-library/tools/upgrades';
 
 
 // Util
-import {EnumHelper} from "@/ig-template/util/EnumHelper";
-import {DateHelper} from "@/ig-template/util/DateHelper";
-import {ArrayBuilder} from "@/ig-template/util/ArrayBuilder";
+import {EnumHelper} from "@/igt-library/util/EnumHelper";
+import {DateHelper} from "@/igt-library/util/DateHelper";
+import {ArrayBuilder} from "@/igt-library/util/ArrayBuilder";
 
 export {
     EnumHelper,
@@ -56,4 +56,4 @@ export {
 }
 
 // Mixins
-export * from '@/ig-template/mixins/';
+export * from '@/igt-library/mixins/';

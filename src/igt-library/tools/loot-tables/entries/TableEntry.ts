@@ -1,10 +1,10 @@
-import {LootTableId} from "@/ig-template/tools/loot-tables/LootTableId";
-import {LootTables} from "@/ig-template/features/loot-tables/LootTables";
-import {IgtLootEntry} from "@/ig-template/tools/loot-tables/entries/IgtLootEntry";
-import {Requirement} from "@/ig-template/tools/requirements/Requirement";
-import {NoRequirement} from "@/ig-template/tools/requirements/NoRequirement";
-import {IntRange} from "@/ig-template/tools/probability/IntRange";
-import {IgtLoot} from "@/ig-template/tools/loot-tables/rewards/IgtLoot";
+import {LootTableId} from "@/igt-library/tools/loot-tables/LootTableId";
+import {LootTables} from "@/igt-library/features/loot-tables/LootTables";
+import {IgtLootEntry} from "@/igt-library/tools/loot-tables/entries/IgtLootEntry";
+import {Requirement} from "@/igt-library/tools/requirements/Requirement";
+import {NoRequirement} from "@/igt-library/tools/requirements/NoRequirement";
+import {IntRange} from "@/igt-library/tools/probability/IntRange";
+import {IgtLoot} from "@/igt-library/tools/loot-tables/rewards/IgtLoot";
 
 export class TableEntry extends IgtLootEntry {
     _lootTables: LootTables;

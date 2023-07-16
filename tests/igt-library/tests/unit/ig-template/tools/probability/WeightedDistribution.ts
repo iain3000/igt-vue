@@ -1,6 +1,6 @@
-import {WeightedDistribution} from "@/ig-template/tools/probability/WeightedDistribution";
-import {Outcome} from "@/ig-template/tools/probability/Outcome";
-import {BooleanRequirement} from "@/ig-template/tools/requirements/BooleanRequirement";
+import {WeightedDistribution} from "@/igt-library/tools/probability/WeightedDistribution";
+import {Outcome} from "@/igt-library/tools/probability/Outcome";
+import {BooleanRequirement} from "@/igt-library/tools/requirements/BooleanRequirement";
 
 describe('WeightedDistribution', () => {
     test('draw happy path', () => {

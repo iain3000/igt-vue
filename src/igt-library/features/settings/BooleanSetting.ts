@@ -1,7 +1,7 @@
-import {Setting} from "@/ig-template/features/settings/Setting";
-import {SettingId} from "@/ig-template/features/settings/SettingId";
-import {Requirement} from "@/ig-template/tools/requirements/Requirement";
-import {SettingOption} from "@/ig-template/features/settings/SettingOption";
+import {Setting} from "@/igt-library/features/settings/Setting";
+import {SettingId} from "@/igt-library/features/settings/SettingId";
+import {Requirement} from "@/igt-library/tools/requirements/Requirement";
+import {SettingOption} from "@/igt-library/features/settings/SettingOption";
 
 /**
  * A setting that can only be on or off.

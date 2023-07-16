@@ -1,5 +1,5 @@
-import {SaveData} from "@/ig-template/tools/saving/SaveData";
-import {RedeemableCodeId} from "@/ig-template/features/codes/RedeemableCodeId";
+import {SaveData} from "@/igt-library/tools/saving/SaveData";
+import {RedeemableCodeId} from "@/igt-library/features/codes/RedeemableCodeId";
 
 /**
  * Redeemed codes are saved as a list of keys

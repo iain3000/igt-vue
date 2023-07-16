@@ -1,6 +1,6 @@
 import {ItemId} from "./ItemId";
 import {ItemType} from "./ItemType";
-import {Saveable} from "@/ig-template/tools/saving/Saveable";
+import {Saveable} from "@/igt-library/tools/saving/Saveable";
 
 /**
  * Abstract class that all inventory items will inherit from

@@ -1,5 +1,5 @@
-export {LocalStorage} from "@/ig-template/tools/saving/LocalStorage";
-export type {Saveable} from "@/ig-template/tools/saving/Saveable";
-export type {SaveData} from "@/ig-template/tools/saving/SaveData";
-export type {UpgradesFeatureSaveData} from "@/ig-template/tools/saving/UpgradesFeatureSaveData";
-export {IgtSaveEncoder} from "@/ig-template/tools/saving/IgtSaveEncoder"; 
+export {LocalStorage} from "@/igt-library/tools/saving/LocalStorage";
+export type {Saveable} from "@/igt-library/tools/saving/Saveable";
+export type {SaveData} from "@/igt-library/tools/saving/SaveData";
+export type {UpgradesFeatureSaveData} from "@/igt-library/tools/saving/UpgradesFeatureSaveData";
+export {IgtSaveEncoder} from "@/igt-library/tools/saving/IgtSaveEncoder"; 

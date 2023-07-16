@@ -1,6 +1,6 @@
-import {IgtWallet} from "@/ig-template/features/wallet";
-import {IgtAbstractUpgrade} from "@/ig-template/tools/upgrades";
-import {FeatureConstructor} from "@/ig-template/mixins/Mixins";
+import {IgtWallet} from "@/igt-library/features/wallet";
+import {IgtAbstractUpgrade} from "@/igt-library/tools/upgrades";
+import {FeatureConstructor} from "@/igt-library/mixins/Mixins";
 
 export function AddWallet<TBase extends FeatureConstructor>(Base: TBase) {
     abstract class AddWallet extends Base {

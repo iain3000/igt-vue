@@ -1,7 +1,7 @@
 import Mousetrap from 'mousetrap';
-import {KeyBind} from "@/ig-template/tools/hotkeys/KeyBind";
-import {KeyEventType} from "@/ig-template/tools/hotkeys/KeyEventType";
-import {KeyBindDescription} from "@/ig-template/tools/hotkeys/KeyBindDescription";
+import {KeyBind} from "@/igt-library/tools/hotkeys/KeyBind";
+import {KeyEventType} from "@/igt-library/tools/hotkeys/KeyEventType";
+import {KeyBindDescription} from "@/igt-library/tools/hotkeys/KeyBindDescription";
 
 /**
  * Easily add KeyBinds from anywhere in your codebase.

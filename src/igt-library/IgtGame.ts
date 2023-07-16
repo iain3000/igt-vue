@@ -1,15 +1,15 @@
 import {GameState} from "./GameState";
-import {LocalStorage} from "@/ig-template/tools/saving/LocalStorage";
-import {CurrencyType} from "@/ig-template/features/wallet/CurrencyType";
-import {IgtFeatures} from "@/ig-template/IgtFeatures";
-import {IgtFeature} from "@/ig-template/features/IgtFeature";
-import {DeveloperPanel} from "@/ig-template/developer-panel/DeveloperPanel";
-import {DeveloperPanelTab} from "@/ig-template/developer-panel/DeveloperPanelTab";
-import {FunctionField} from "@/ig-template/developer-panel/fields/FunctionField";
-import {DisplayField} from "@/ig-template/developer-panel/fields/DisplayField";
-import {ChoiceField} from "@/ig-template/developer-panel/fields/ChoiceField";
-import {IgtSaveEncoder} from "@/ig-template/tools/saving";
-import {DefaultSaveEncoder} from "@/ig-template/tools/saving/DefaultSaveEncoder";
+import {LocalStorage} from "@/igt-library/tools/saving/LocalStorage";
+import {CurrencyType} from "@/igt-library/features/wallet/CurrencyType";
+import {IgtFeatures} from "@/igt-library/IgtFeatures";
+import {IgtFeature} from "@/igt-library/features/IgtFeature";
+import {DeveloperPanel} from "@/igt-library/developer-panel/DeveloperPanel";
+import {DeveloperPanelTab} from "@/igt-library/developer-panel/DeveloperPanelTab";
+import {FunctionField} from "@/igt-library/developer-panel/fields/FunctionField";
+import {DisplayField} from "@/igt-library/developer-panel/fields/DisplayField";
+import {ChoiceField} from "@/igt-library/developer-panel/fields/ChoiceField";
+import {IgtSaveEncoder} from "@/igt-library/tools/saving";
+import {DefaultSaveEncoder} from "@/igt-library/tools/saving/DefaultSaveEncoder";
 
 export abstract class IgtGame {
     protected _tickInterval: NodeJS.Timeout | null = null;

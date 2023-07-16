@@ -1,7 +1,7 @@
-import {IgtKeyItems} from "@/ig-template/features/key-items/IgtKeyItems";
-import {KeyItem} from "@/ig-template/features/key-items/KeyItem";
-import {KeyItemRequirement} from "@/ig-template/features/key-items/KeyItemRequirement";
-import {KeyItemId} from "@/ig-template/features/key-items/KeyItemId";
+import {IgtKeyItems} from "@/igt-library/features/key-items/IgtKeyItems";
+import {KeyItem} from "@/igt-library/features/key-items/KeyItem";
+import {KeyItemRequirement} from "@/igt-library/features/key-items/KeyItemRequirement";
+import {KeyItemId} from "@/igt-library/features/key-items/KeyItemId";
 
 describe('Key Item Requirement', () => {
     const id = "dummy" as KeyItemId;

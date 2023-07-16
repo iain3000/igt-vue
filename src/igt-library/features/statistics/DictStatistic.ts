@@ -1,5 +1,5 @@
-import {AbstractStatistic} from "@/ig-template/features/statistics/AbstractStatistic";
-import {StatisticId} from "@/ig-template/features/statistics/StatisticId";
+import {AbstractStatistic} from "@/igt-library/features/statistics/AbstractStatistic";
+import {StatisticId} from "@/igt-library/features/statistics/StatisticId";
 
 export class DictStatistic extends AbstractStatistic {
     value: {[key: string]: number};

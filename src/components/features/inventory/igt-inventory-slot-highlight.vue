@@ -27,7 +27,7 @@
 </template>
 
 <script>
-import {AbstractConsumable, InventorySlot} from "@/ig-template";
+import {AbstractConsumable, InventorySlot} from "@/igt-library";
 
 export default {
   name: "igt-inventory-slot-highlight",

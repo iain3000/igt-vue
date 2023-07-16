@@ -1,4 +1,4 @@
-import {Requirement} from "@/ig-template/tools/requirements/Requirement";
+import {Requirement} from "@/igt-library/tools/requirements/Requirement";
 
 export class CustomRequirement extends Requirement {
 

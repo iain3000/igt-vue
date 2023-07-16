@@ -1,6 +1,6 @@
-import { Achievement, AchievementsSaveData, IgtFeature } from "@/ig-template";
+import { Achievement, AchievementsSaveData, IgtFeature } from "@/igt-library";
 import { useAchievementStore } from "./achievement-store";
-import { AchievementId } from "@/ig-template/features/achievements/AchievementId";
+import { AchievementId } from "@/igt-library/features/achievements/AchievementId";
 
 export class IgtAchievementStore extends IgtFeature{
        // Delay between checking for achievements

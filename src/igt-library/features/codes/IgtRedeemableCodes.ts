@@ -1,6 +1,6 @@
-import {RedeemableCode} from "@/ig-template/features/codes/RedeemableCode";
-import {IgtFeature} from "@/ig-template/features/IgtFeature";
-import {RedeemableCodesSaveData} from "@/ig-template/features/codes/RedeemableCodesSaveData";
+import {RedeemableCode} from "@/igt-library/features/codes/RedeemableCode";
+import {IgtFeature} from "@/igt-library/features/IgtFeature";
+import {RedeemableCodesSaveData} from "@/igt-library/features/codes/RedeemableCodesSaveData";
 
 export class IgtRedeemableCodes extends IgtFeature {
 
