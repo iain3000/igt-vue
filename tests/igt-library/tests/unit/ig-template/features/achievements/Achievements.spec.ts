@@ -48,9 +48,17 @@ describe('Achievements', () => {
             )
         );
 
-        achievements.store.$subscribe((mutation, state) => {
-            expect(state.achievements[id].unlocked).toBeTruthy();
+        // eslint-disable-next-line @typescript-eslint/no-unused-vars
+        achievements.store.$onAction(({ name, store, args, after, onError }) => {
+            after((result) => {
+              expect(result.key).toBe(id);
+            })
+            onError((error) => {
+                console.error(error);
+                throw(error);
+            })
         })
+
         
         // Simulate 3 seconds twice to check for completion once
         achievements.update(3)
