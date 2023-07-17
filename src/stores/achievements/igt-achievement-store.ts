@@ -26,7 +26,7 @@ export class IgtAchievementStore extends IgtFeature{
             if (achievement.requirementsCompleted()) {
                 const isJustUnlocked = achievement.unlock();
                 if (isJustUnlocked) {
-                    // we used to have to emit an event here but pinia subscriptions make that redundant
+                    this.store.popAchievement(achievement)
                 }
             }
         }
