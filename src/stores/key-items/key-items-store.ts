@@ -1,4 +1,4 @@
-import { KeyItem } from "@/igt-library";
+import { KeyItem } from "incremental-game-template";
 import { KeyItemId } from "@/igt-library/features/key-items/KeyItemId";
 import { defineStore } from "pinia";
 

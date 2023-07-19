@@ -1,6 +1,6 @@
 import { CurrencyType } from "@/igt-library/features/wallet/CurrencyType";
 import { useWalletStore } from "./wallet-store";
-import { Currency, IgtFeature, WalletSaveData } from "@/igt-library";
+import { Currency, IgtFeature, WalletSaveData } from "incremental-game-template";
 
 export class IgtWalletStore extends IgtFeature {
     payMultipleIfPossible(currencies: Currency[]): boolean {

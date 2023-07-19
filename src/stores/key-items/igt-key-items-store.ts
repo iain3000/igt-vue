@@ -1,4 +1,4 @@
-import { IgtFeature, KeyItem, KeyItemSaveData } from "@/igt-library";
+import { IgtFeature, KeyItem, KeyItemSaveData } from "incremental-game-template";
 import { KeyItemId } from "@/igt-library/features/key-items/KeyItemId";
 import { useKeyItemStore } from "./key-items-store";
 

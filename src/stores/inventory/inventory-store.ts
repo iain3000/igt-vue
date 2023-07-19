@@ -1,4 +1,4 @@
-import { AbstractItem, InventorySlot } from "@/igt-library";
+import { AbstractItem, InventorySlot } from "incremental-game-template";
 import { ItemId } from "@/igt-library/features/items/ItemId";
 import { defineStore } from "pinia";
 

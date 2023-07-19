@@ -1,4 +1,4 @@
-import { Achievement } from "@/igt-library";
+import { Achievement } from "incremental-game-template";
 import { AchievementId } from "@/igt-library/features/achievements/AchievementId";
 import { defineStore } from "pinia";
 

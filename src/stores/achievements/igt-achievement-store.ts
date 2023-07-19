@@ -1,4 +1,4 @@
-import { Achievement, AchievementsSaveData, IgtFeature } from "@/igt-library";
+import { Achievement, AchievementsSaveData, IgtFeature } from "incremental-game-template";
 import { useAchievementStore } from "./achievement-store";
 import { AchievementId } from "@/igt-library/features/achievements/AchievementId";
 

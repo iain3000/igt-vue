@@ -1,6 +1,6 @@
 import { defineStore } from "pinia";
 
-import { Currency } from "@/igt-library";
+import { Currency } from "incremental-game-template";
 import { CurrencyType } from "@/igt-library/features/wallet/CurrencyType";
 
 export const useWalletStore = defineStore('wallet', {
