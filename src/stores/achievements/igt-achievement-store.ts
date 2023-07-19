@@ -1,6 +1,6 @@
 import { Achievement, AchievementsSaveData, IgtFeature } from "incremental-game-template";
 import { useAchievementStore } from "./achievement-store";
-import { AchievementId } from "@/igt-library/features/achievements/AchievementId";
+import { AchievementId } from "incremental-game-template/lib/ig-template/features/achievements/AchievementId";
 
 export class IgtAchievementStore extends IgtFeature{
        // Delay between checking for achievements

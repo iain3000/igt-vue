@@ -1,5 +1,5 @@
 import { IgtFeature, KeyItem, KeyItemSaveData } from "incremental-game-template";
-import { KeyItemId } from "@/igt-library/features/key-items/KeyItemId";
+import { KeyItemId } from "incremental-game-template/lib/ig-template/features/key-items/KeyItemId";
 import { useKeyItemStore } from "./key-items-store";
 
 export class IgtKeyItemsStore extends IgtFeature {

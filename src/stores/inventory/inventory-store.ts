@@ -1,5 +1,5 @@
 import { AbstractItem, InventorySlot } from "incremental-game-template";
-import { ItemId } from "@/igt-library/features/items/ItemId";
+import { ItemId } from "incremental-game-template/lib/ig-template/features/items/ItemId";
 import { defineStore } from "pinia";
 
 export const useInventoryStore = defineStore('inventory', {

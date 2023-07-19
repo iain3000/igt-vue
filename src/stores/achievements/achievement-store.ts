@@ -1,5 +1,5 @@
 import { Achievement } from "incremental-game-template";
-import { AchievementId } from "@/igt-library/features/achievements/AchievementId";
+import { AchievementId } from "incremental-game-template/lib/ig-template/features/achievements/AchievementId";
 import { defineStore } from "pinia";
 
 export const useAchievementStore = defineStore('achievement', {

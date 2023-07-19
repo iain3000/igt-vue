@@ -1,6 +1,6 @@
 import { AbstractConsumable, AbstractItem, EmptyItem, IgtFeature, InventorySaveData, InventorySlot, SaveData } from "incremental-game-template";
 import { useInventoryStore } from "./inventory-store";
-import { ItemId } from "@/igt-library/features/items/ItemId";
+import { ItemId } from "incremental-game-template/lib/ig-template/features/items/ItemId";
 
 export class IgtInventoryStore extends IgtFeature {
     store = useInventoryStore();

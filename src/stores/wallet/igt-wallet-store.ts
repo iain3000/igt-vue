@@ -1,4 +1,4 @@
-import { CurrencyType } from "@/igt-library/features/wallet/CurrencyType";
+import { CurrencyType } from "incremental-game-template/lib/ig-template/features/wallet/CurrencyType";
 import { useWalletStore } from "./wallet-store";
 import { Currency, IgtFeature, WalletSaveData } from "incremental-game-template";
 
