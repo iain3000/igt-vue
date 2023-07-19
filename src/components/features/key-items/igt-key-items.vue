@@ -9,7 +9,8 @@
 <script>
 import IgtFeature from "@/components/util/igt-feature.vue";
 import IgtKeyItem from "@/components/features/key-items/igt-key-item.vue";
-import {IgtKeyItems} from "incremental-game-template";
+import { IgtKeyItemsStore as IgtKeyItems } from "@/stores/key-items/igt-key-items-store";
+import { useKeyItemStore } from "@/stores/key-items/key-items-store";
 
 export default {
   name: "igt-key-items",
@@ -26,17 +27,36 @@ export default {
     }
   },
   mounted() {
-    this.keyItemsFeature.onKeyItemGain.subscribe((keyItem) => {
-      this.$notify(
-          {
-            title: `Key Item get: ${keyItem.name}`,
-            text: keyItem.description,
-            type: "success",
-            group: "top-left",
-          },
-          4000
-      );
-    })
+    const store = useKeyItemStore();
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
+    store.$onAction(({ name, store, args, after, onError }) => {
+            after((keyItem) => {
+                  this.$notify(
+                  {
+                    title: `Key Item get: ${keyItem.name}`,
+                    text: keyItem.description,
+                    type: "success",
+                    group: "top-left",
+                  },
+                  4000
+                );
+            })
+            onError((error) => {
+                console.error(error);
+                throw(error);
+            })
+        })
+    // this.keyItemsFeature.onKeyItemGain.subscribe((keyItem) => {
+    //   this.$notify(
+    //       {
+    //         title: `Key Item get: ${keyItem.name}`,
+    //         text: keyItem.description,
+    //         type: "success",
+    //         group: "top-left",
+    //       },
+    //       4000
+    //   );
+    // })
   }
 }
 </script>

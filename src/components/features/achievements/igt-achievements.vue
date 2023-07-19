@@ -21,7 +21,9 @@
 </template>
 <script>
 import IgtFeature from "@/components/util/igt-feature.vue";
-import {IgtAchievements} from "incremental-game-template";
+import { useAchievementStore } from "@/stores/achievements/achievement-store";
+import { IgtAchievementStore as IgtAchievements } from "@/stores/igt-achievement-store";
+
 import { getImageUrl } from "@/utils";
 
 export default {
@@ -45,8 +47,12 @@ export default {
   },
 
   mounted() {
-    this.achievementsFeature.onUnlock.subscribe((achievement) => {
-      this.$notify(
+    const store = useAchievementStore();
+
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
+    store.$onAction(({ name, store, args, after, onError }) => {
+      after((achievement) => {
+        this.$notify(
           {
             title: `Achievement get: ${achievement.title}`,
             text: achievement.description,
@@ -54,7 +60,12 @@ export default {
             group: "top-left",
           },
           4000
-      );
+        );
+      })
+      onError((error) => {
+        console.error(error);
+        throw (error);
+      })
     })
   }
 }
