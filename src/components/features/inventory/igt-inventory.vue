@@ -27,7 +27,7 @@
 import IgtFeature from "@/components/util/igt-feature.vue";
 import IgtInventorySlot from "@/components/features/inventory/igt-inventory-slot.vue";
 import IgtInventorySlotHighlight from "@/components/features/inventory/igt-inventory-slot-highlight.vue";
-import { IgtInventoryStore as IgtInventory } from "@/stores/inventory/igt-inventory-store";
+import { IgtInventoryStore as IgtInventory } from "@/stores/inventory/igt-i-s-extended";
 
 export default {
   name: "igt-inventory",
